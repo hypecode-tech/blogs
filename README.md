@@ -9,7 +9,7 @@ Teknoloji ve yazılım dünyasında bilgi paylaşımını ön planda tutarak, da
 ### İçerik Listesi
 
 [Qwik.js Nedir?](https://github.com/hypecode-tech/blogs/blob/main/qwikjs-nedir/README.md)
-
+[Nginx QUIC - HTTP/3 Nasıl Etkinleştirilir](https://github.com/hypecode-tech/blogs/tree/main/nginx-quic-nasil-etkinlestirilir/README.md)
 #### Katkıda bulunanlar
 
 <!-- BEGIN CONTRIBUTORS LIST -->
