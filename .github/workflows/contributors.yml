@@ -32,7 +32,7 @@ jobs:
           README_CONTENT=$(cat README.md)
 
           # Prepare the new README content by replacing the contributors section
-          NEW_README_CONTENT=$(echo "$README_CONTENT" | sed -e "/<!-- BEGIN CONTRIBUTORS LIST -->/,/<!-- END CONTRIBUTORS LIST -->/d" -e "/#### Katkıda bulunanlar/a \n<!-- BEGIN CONTRIBUTORS LIST -->\n${CONTRIBUTORS_LIST}\n<!-- END CONTRIBUTORS LIST -->")
+          NEW_README_CONTENT=$(echo "$README_CONTENT" | sed -e "/<!-- BEGIN CONTRIBUTORS LIST -->/,/<!-- END CONTRIBUTORS LIST -->/d" -e "/#### Katkıda bulunanlar/a <!-- BEGIN CONTRIBUTORS LIST -->\n${CONTRIBUTORS_LIST}\n<!-- END CONTRIBUTORS LIST -->")
 
           # Write the updated content back to README.md
           echo "$NEW_README_CONTENT" > README.md
