@@ -18,6 +18,10 @@
 
 ## Nasıl Çalışır?
 
+@hypecode-tech
+
+![Octocat](https://hypecode.tech/Logo.png)
+
 Qwik.js, **bölümlere ayırma** (segmentation) ve **hidratasyon** gibi teknikleri kullanarak, uygulamanın yalnızca gerekli olan parçalarını yükler. Bu, gereksiz JavaScript yüklemelerini önler ve kullanıcıya en hızlı deneyimi sunar.
 
 ### Qwik.js'in Temel Prensipleri
