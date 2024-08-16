@@ -16,4 +16,5 @@ Teknoloji ve yazılım dünyasında bilgi paylaşımını ön planda tutarak, da
   - [actions-user](https://github.com/actions-user)
   - [hypecode-tech](https://github.com/hypecode-tech)
   - [actions-user](https://github.com/actions-user)
+  - [hypecode-tech](https://github.com/hypecode-tech)
 <!-- END CONTRIBUTORS LIST -->
