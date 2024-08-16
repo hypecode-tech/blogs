@@ -11,6 +11,9 @@ Teknoloji ve yazılım dünyasında bilgi paylaşımını ön planda tutarak, da
 [Qwik.js Nedir?](https://github.com/hypecode-tech/blogs/blob/main/qwikjs-nedir/README.md)
 
 [Nginx QUIC - HTTP/3 Nasıl Etkinleştirilir](https://github.com/hypecode-tech/blogs/tree/main/nginx-quic-nasil-etkinlestirilir/README.md)
+
+[Golang Fiber - Mikroservis Rehberi](https://github.com/hypecode-tech/blogs/tree/main/fiber-ile-microservis/README.md)
+
 #### Katkıda bulunanlar
 
 <!-- BEGIN CONTRIBUTORS LIST -->
