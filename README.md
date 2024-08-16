@@ -10,3 +10,6 @@ Teknoloji ve yazılım dünyasında bilgi paylaşımını ön planda tutarak, da
 
 
 #### Katkıda bulunanlar
+
+<!-- BEGIN CONTRIBUTORS LIST -->
+<!-- END CONTRIBUTORS LIST -->
