@@ -1,4 +1,4 @@
-name: Katkıda bulunanlar listesi güncelleme
+name: Update Contributors List
 
 on:
   push:
@@ -21,23 +21,21 @@ jobs:
             jq -r '.[] | "- [\(.login)](https://github.com/\(.login))"' | \
             awk '{print "  " $0}')
 
-          # Set the contributors list as an output
+          # Save the list as an environment variable
           echo "CONTRIBUTORS_LIST<<EOF" >> $GITHUB_ENV
           echo "$CONTRIBUTORS_LIST" >> $GITHUB_ENV
           echo "EOF" >> $GITHUB_ENV
 
       - name: Update README.md
         run: |
-          # Backup the original README.md
-          cp README.md README.md.bak
+          # Read current README.md
+          README_CONTENT=$(cat README.md)
 
-          # Use awk to replace the old contributors list with the new one
-          awk -v list="$CONTRIBUTORS_LIST" '
-            BEGIN { inside=0 }
-            /<!-- BEGIN CONTRIBUTORS LIST -->/ { inside=1; print; next }
-            /<!-- END CONTRIBUTORS LIST -->/ { inside=0; print list; print; next }
-            { print }
-          ' README.md.bak > README.md
+          # Prepare the new README content by replacing the contributors section
+          NEW_README_CONTENT=$(echo "$README_CONTENT" | sed -e "/<!-- BEGIN CONTRIBUTORS LIST -->/,/<!-- END CONTRIBUTORS LIST -->/d" -e "/#### Katkıda bulunanlar/a \n<!-- BEGIN CONTRIBUTORS LIST -->\n${CONTRIBUTORS_LIST}\n<!-- END CONTRIBUTORS LIST -->")
+
+          # Write the updated content back to README.md
+          echo "$NEW_README_CONTENT" > README.md
 
       - name: Commit and Push Changes
         uses: EndBug/add-and-commit@v9
