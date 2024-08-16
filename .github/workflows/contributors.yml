@@ -1,0 +1,27 @@
+name: Update Contributors List
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-contributors:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Fetch Contributors
+        run: |
+          curl -s https://api.github.com/repos/hypecode-tech/blogs/contributors | \
+            jq -r '.[] | "- [\(.login)](https://github.com/\(.login))"' > CONTRIBUTORS.md
+
+      - name: Commit CONTRIBUTORS file
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: 'GitHub Actions'
+          author_email: 'actions@github.com'
+          message: 'Update CONTRIBUTORS list'
+          add: 'CONTRIBUTORS.md'
