@@ -40,3 +40,5 @@ Bu yazımızda sizlere Qwik.js'in neler sunduğunu, React.js'e kıyasla avantajl
 Teknoloji dünyasında sürekli gelişen yenilikleri takip etmek ve en uygun araçları seçmek, başarıya giden yolda kritik öneme sahiptir. Bu yolculukta, bilgi ve yeniliklerin ışığında ilerlemeye devam ederken, sormak veya keşfetmek istediğiniz her konuda yanınızda olmaktan **Hypecode ekibi olarak** mutluluk duyacağız.
 
 İyi Çalışmalar dileriz. 🌟
+
+(Hypecode)[https://hypecode.tech]
