@@ -4,12 +4,15 @@ Hedefimiz, yazılım geliştirme ve teknoloji konularında geniş bir bilgi havu
 
 ## Vizyon
 
-Teknoloji ve yazılım dünyasında bilgi paylaşımını ön planda tutarak, daha açık ve erişilebilir bir öğrenme ortamı oluşturmak. 
+Teknoloji ve yazılım dünyasında bilgi paylaşımını ön planda tutarak, daha açık ve erişilebilir bir öğrenme ortamı oluşturmak.
 
 ### İçerik Listesi
 
+[Qwik.js Nedir?](https://github.com/hypecode-tech/blogs/blob/main/qwikjs-nedir/README.md)
 
 #### Katkıda bulunanlar
+
 <!-- BEGIN CONTRIBUTORS LIST -->
-  - [hypecode-tech](https://github.com/hypecode-tech)
+
+- [hypecode-tech](https://github.com/hypecode-tech)
 <!-- END CONTRIBUTORS LIST -->
