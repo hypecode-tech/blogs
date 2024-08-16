@@ -31,3 +31,4 @@ npm create qwik@latest
 cd my-app
 npm install
 npm run dev
+```
