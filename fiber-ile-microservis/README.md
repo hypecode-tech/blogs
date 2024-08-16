@@ -33,7 +33,7 @@ func main() {
 }
 ```
 
-![Golang Fiber - Hypecode](https://github.com/hypecode-tech/blogs/blob/main/fiber-ile-microservis/terminal-output.png)
+![Golang Fiber - Hypecode](https://raw.githubusercontent.com/hypecode-tech/blogs/main/fiber-ile-microservis/terminal-output.png)
 
 
 Bu kod parçacığı, Fiber kullanarak bir web sunucusu başlatır ve ana rotada “Hello, World!” mesajını döner.

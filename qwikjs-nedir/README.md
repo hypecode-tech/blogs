@@ -24,12 +24,12 @@ Qwik.js, modern web geliştirme için tasarlanmış bir JavaScript çerçevesidi
 
 Şuanda Qwik.JS ile kodlanmış ve yayına alınmış bir Websitesinin Google tarafından ölçülmüş Core Web Vitals değerlerini görmektesiniz. Ekrandaki sonuçlara göre gayet başarılı bir performansa sahip.
 
-![Core Web Vitals - Hypecode](https://github.com/hypecode-tech/blogs/blob/main/qwikjs-nedir/core-web-vitals.png)
+![Core Web Vitals - Hypecode](https://raw.githubusercontent.com/hypecode-tech/blogs/main/qwikjs-nedir/core-web-vitals.png)
 
 
 Şimdide SEO diğer metrik değerlere bir göz atalım
 
-![Core Web Vitals - Hypecode](https://github.com/hypecode-tech/blogs/blob/main/qwikjs-nedir/pagespeed-score.png)
+![Core Web Vitals - Hypecode](https://raw.githubusercontent.com/hypecode-tech/blogs/main/qwikjs-nedir/pagespeed-score.png)
 
 Gördüğünüz gibi bu değerlerde de gayet üst düzey değerlere erişiyoruz.
 
