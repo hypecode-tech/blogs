@@ -13,15 +13,20 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Fetch Contributors
+      - name: Fetch Contributors and Update README
         run: |
-          curl -s https://api.github.com/repos/hypecode-tech/blogs/contributors | \
-            jq -r '.[] | "- [\(.login)](https://github.com/\(.login))"' > CONTRIBUTORS.md
+          # Fetch contributors from GitHub API
+          CONTRIBUTORS_LIST=$(curl -s https://api.github.com/repos/hypecode-tech/blogs/contributors | \
+            jq -r '.[] | "- [\(.login)](https://github.com/\(.login))"')
 
-      - name: Commit CONTRIBUTORS file
+          # Update README.md
+          sed -i '/<!-- BEGIN CONTRIBUTORS LIST -->/,/<!-- END CONTRIBUTORS LIST -->/d' README.md
+          sed -i "/#### Katkıda bulunanlar/a \\\n<!-- BEGIN CONTRIBUTORS LIST -->\n${CONTRIBUTORS_LIST}\n<!-- END CONTRIBUTORS LIST -->" README.md
+          
+      - name: Commit and Push Changes
         uses: EndBug/add-and-commit@v9
         with:
           author_name: 'GitHub Actions'
           author_email: 'actions@github.com'
-          message: 'Update CONTRIBUTORS list'
-          add: 'CONTRIBUTORS.md'
+          message: 'Update CONTRIBUTORS list in README.md'
+          add: 'README.md'
