@@ -1,1 +1,0 @@
-- [hypecode-tech](https://github.com/hypecode-tech)
