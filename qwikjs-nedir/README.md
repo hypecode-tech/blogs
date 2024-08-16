@@ -41,4 +41,4 @@ Teknoloji dünyasında sürekli gelişen yenilikleri takip etmek ve en uygun ara
 
 İyi Çalışmalar dileriz. 🌟
 
-!(Hypecode)[https://hypecode.tech]
+[Hypecode](https://hypecode.tech)

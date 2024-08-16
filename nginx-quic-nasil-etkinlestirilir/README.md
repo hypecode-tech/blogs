@@ -35,7 +35,7 @@ HTTP/3, QUIC protokolü üzerinde çalışan üçüncü nesil HTTP protokolüdü
 
 ## Kurulum
 
-Her şeyden önce QUIC - HTTP/3 protokolünü etkinleştirmek için nginx versiyonunuzun 1.25.0 den daha yüksek olması gerekir. Eğer sunucu reponuzda 1.25.0 dan daha yüksek versiyon yok ise (bu linkten binary versiyonunu indirip kurabilirsiniz.)[https://nginx.org/en/linux_packages.html]
+Her şeyden önce QUIC - HTTP/3 protokolünü etkinleştirmek için nginx versiyonunuzun 1.25.0 den daha yüksek olması gerekir. Eğer sunucu reponuzda 1.25.0 dan daha yüksek versiyon yok ise [bu linkten binary versiyonunu indirip kurabilirsiniz.](https://nginx.org/en/linux_packages.html)
 
 Daha sonrasında yapmanız gereken şey ise aşağıdaki örnek kodu kendi domain ve sunucu bilgileriniz doğrultusunda düzenlemek olacaktır.
 
@@ -73,6 +73,6 @@ Teknoloji dünyasında sürekli gelişen yenilikleri takip etmek ve en uygun ara
 
 İyi Çalışmalar dileriz. 🌟
 
-!(Hypecode)[https://hypecode.tech]
+[Hypecode](https://hypecode.tech)
 
 
