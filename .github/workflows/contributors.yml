@@ -1,4 +1,4 @@
-name: Update Contributors List
+name: Katkıda bulunanlar listesi güncelleme
 
 on:
   push:
@@ -13,23 +13,31 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Fetch Contributors and Update README
+      - name: Fetch Contributors from GitHub
+        id: fetch-contributors
         run: |
-          # Fetch contributors from GitHub API
+          # Fetch contributors from GitHub API and format them
           CONTRIBUTORS_LIST=$(curl -s https://api.github.com/repos/hypecode-tech/blogs/contributors | \
             jq -r '.[] | "- [\(.login)](https://github.com/\(.login))"' | \
             awk '{print "  " $0}')
 
-          # Create a temporary file to store the updated README
+          # Set the contributors list as an output
+          echo "CONTRIBUTORS_LIST<<EOF" >> $GITHUB_ENV
+          echo "$CONTRIBUTORS_LIST" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+
+      - name: Update README.md
+        run: |
+          # Backup the original README.md
+          cp README.md README.md.bak
+
+          # Use awk to replace the old contributors list with the new one
           awk -v list="$CONTRIBUTORS_LIST" '
             BEGIN { inside=0 }
             /<!-- BEGIN CONTRIBUTORS LIST -->/ { inside=1; print; next }
             /<!-- END CONTRIBUTORS LIST -->/ { inside=0; print list; print; next }
             { print }
-          ' README.md > README.md.tmp
-
-          # Replace the old README with the updated one
-          mv README.md.tmp README.md
+          ' README.md.bak > README.md
 
       - name: Commit and Push Changes
         uses: EndBug/add-and-commit@v9
