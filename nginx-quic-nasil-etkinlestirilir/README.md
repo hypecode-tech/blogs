@@ -4,34 +4,32 @@ QUIC (Quick UDP Internet Connections), Google tarafından geliştirilen ve UDP t
 
 HTTP/3, QUIC protokolü üzerinde çalışan üçüncü nesil HTTP protokolüdür. HTTP/3, önceki HTTP sürümlerinin üzerinde çalıştığı TCP'nin yerini alarak, daha düşük gecikme süresi ve daha hızlı veri aktarımı sağlar.
 
-
 ## HTTP/2'ye Göre HTTP/3'ün Avantajları
 
 1. Bağlantı Kurulum Süresi:
 
-     - HTTP/2: TCP ve TLS el sıkışmaları gerektiğinden, bir bağlantı kurma süresi uzun olabilir.
-     - HTTP/3: QUIC, TCP ve TLS'yi birleştirerek tek bir el sıkışma işlemi gerektirir. Bu da bağlantı kurulum süresini önemli ölçüde azaltır.
+   - HTTP/2: TCP ve TLS el sıkışmaları gerektiğinden, bir bağlantı kurma süresi uzun olabilir.
+   - HTTP/3: QUIC, TCP ve TLS'yi birleştirerek tek bir el sıkışma işlemi gerektirir. Bu da bağlantı kurulum süresini önemli ölçüde azaltır.
 
 2. Bağlantıların Yeniden Kullanımı:
 
-     - HTTP/2: Bağlantı kesintisi durumunda, TCP bağlantısının baştan kurulması gerekir.
-     - HTTP/3: QUIC, bağlantının IP adresi değişse bile devam edebilmesini sağlar. Bu, özellikle mobil cihazlar gibi ağ değiştiren cihazlar için önemlidir.
+   - HTTP/2: Bağlantı kesintisi durumunda, TCP bağlantısının baştan kurulması gerekir.
+   - HTTP/3: QUIC, bağlantının IP adresi değişse bile devam edebilmesini sağlar. Bu, özellikle mobil cihazlar gibi ağ değiştiren cihazlar için önemlidir.
 
 3. Gecikme ve Performans:
 
-     - HTTP/2: TCP'nin hatalı paketlerin yeniden iletilmesi gibi mekanizmaları nedeniyle gecikme yaşayabilir.
-     - HTTP/3: QUIC, paket kayıplarının sadece kaybolan paketlerin yeniden iletilmesine neden olmasını sağlar, bu da gecikmeyi azaltır ve performansı artırır.
+   - HTTP/2: TCP'nin hatalı paketlerin yeniden iletilmesi gibi mekanizmaları nedeniyle gecikme yaşayabilir.
+   - HTTP/3: QUIC, paket kayıplarının sadece kaybolan paketlerin yeniden iletilmesine neden olmasını sağlar, bu da gecikmeyi azaltır ve performansı artırır.
 
 4. Başlatma Gecikmesi (Head-of-line Blocking):
 
-     - HTTP/2: TCP'de bir paket kaybı olduğunda, bu kayıp giderilene kadar tüm diğer veriler bekletilir.
-     - HTTP/3: QUIC, her veri akışını bağımsız bir şekilde işler, bu sayede bir akıştaki sorun diğer akışları etkilemez.
+   - HTTP/2: TCP'de bir paket kaybı olduğunda, bu kayıp giderilene kadar tüm diğer veriler bekletilir.
+   - HTTP/3: QUIC, her veri akışını bağımsız bir şekilde işler, bu sayede bir akıştaki sorun diğer akışları etkilemez.
 
 5. Güvenlik:
 
-    - HTTP/2: Güvenlik TCP ve TLS üzerinde sağlanır.
-    - HTTP/3: QUIC, TLS 1.3 ile entegre bir şekilde gelir, bu  da daha hızlı ve güvenli bir bağlantı sağlar.
-
+   - HTTP/2: Güvenlik TCP ve TLS üzerinde sağlanır.
+   - HTTP/3: QUIC, TLS 1.3 ile entegre bir şekilde gelir, bu da daha hızlı ve güvenli bir bağlantı sağlar.
 
 ## Kurulum
 
@@ -40,30 +38,43 @@ Her şeyden önce QUIC - HTTP/3 protokolünü etkinleştirmek için nginx versiy
 Daha sonrasında yapmanız gereken şey ise aşağıdaki örnek kodu kendi domain ve sunucu bilgileriniz doğrultusunda düzenlemek olacaktır.
 
 ```bash
-    server {
 
-        http2 on;
+server {
 
-        quic_gso on;
-        ssl_early_data on;
-        quic_retry on;
 
-        listen 443 quic reuseport;
-        listen 433 ssl;
+    http2 on;
 
-        ssl_certificate     certs/example.com.crt;
-        ssl_certificate_key certs/example.com.key;
 
-        location / {
-            # Tarayıcı için zorunlu header bilgisidir.
-            add_header Alt-Svc 'h3=":8443"; ma=86400';
-        }
+    quic_gso on;
+
+    ssl_early_data on;
+
+    quic_retry on;
+
+
+    listen 443 quic reuseport;
+
+    listen 433 ssl;
+
+
+    ssl_certificate     certs/example.com.crt;
+
+    ssl_certificate_key certs/example.com.key;
+
+
+    location / {
+
+        # Tarayıcı için zorunlu header bilgisidir.
+
+        add_header Alt-Svc 'h3=":8443"; ma=86400';
+
     }
+
+}
 
 ```
 
-Konfigürasyon dosyasını düzenledikten sonra ``` nginx -t ``` komutu ile söz dizimnde herhangi bir hata olmadığından emin olduktan sonra ``` systemctl restart nginx ``` komutu ile nginxi yeniden başlatabilirsiniz daha sonrasında **F12** tuşuna basın ve çıkan sağ ekrandan sunucu tarafından gönderilen dosyaların **Sürüm** bilgisini görebilirsiniz.
-
+Konfigürasyon dosyasını düzenledikten sonra `nginx -t` komutu ile söz dizimnde herhangi bir hata olmadığından emin olduktan sonra `systemctl restart nginx` komutu ile nginxi yeniden başlatabilirsiniz daha sonrasında **F12** tuşuna basın ve çıkan sağ ekrandan sunucu tarafından gönderilen dosyaların **Sürüm** bilgisini görebilirsiniz.
 
 ![HTTP/3 - Hypecode](https://raw.githubusercontent.com/hypecode-tech/blogs/main/nginx-quic-nasil-etkinlestirilir/result.png)
 
@@ -74,5 +85,3 @@ Teknoloji dünyasında sürekli gelişen yenilikleri takip etmek ve en uygun ara
 İyi Çalışmalar dileriz. 🌟
 
 [Hypecode](https://hypecode.tech)
-
-

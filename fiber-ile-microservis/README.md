@@ -6,10 +6,10 @@ Fiber, Express.js'in Go versiyonu olarak da görülebilir ve geliştiricilere ta
 
 Fiber, GoLang'ın performans odaklı yapısını tamamen benimseyen, hafif ve kolay kullanılabilir bir web framework'üdür. Fiber'ı kullanmak için birkaç önemli neden:
 
-    - Performans: Fiber, GoLang'ın üstün performansını doğrudan kullanır ve bu sayede çok hızlı web uygulamaları geliştirmenizi sağlar.
-    - Express.js Benzerliği: Express.js'e aşina olanlar için öğrenmesi kolaydır.
-    - Modüler Yapı: Fiber, modüler bir yapıya sahiptir ve ihtiyacınıza göre çeşitli middleware'ler ile genişletilebilir.
-    - Kolay Başlangıç: Minimalist yapısı sayesinde hızlı bir şekilde uygulamanızı ayağa kaldırabilirsiniz.
+- Performans: Fiber, GoLang'ın üstün performansını doğrudan kullanır ve bu sayede çok hızlı web uygulamaları geliştirmenizi sağlar.
+- Express.js Benzerliği: Express.js'e aşina olanlar için öğrenmesi kolaydır.
+- Modüler Yapı: Fiber, modüler bir yapıya sahiptir ve ihtiyacınıza göre çeşitli middleware'ler ile genişletilebilir.
+- Kolay Başlangıç: Minimalist yapısı sayesinde hızlı bir şekilde uygulamanızı ayağa kaldırabilirsiniz.
 
 Bu blog yazısında Fiberın **v3** versiyonu esas alınacaktır.
 
