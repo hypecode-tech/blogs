@@ -1,4 +1,4 @@
-# HTTP/3 - QUIC Protokolü Nasıl Kurulur
+## HTTP/3 - QUIC Protokolü Nasıl Kurulur
 
 QUIC (Quick UDP Internet Connections), Google tarafından geliştirilen ve UDP tabanlı bir taşıma protokolüdür. QUIC, internet trafiğini hızlandırmak ve güvenliğini artırmak amacıyla tasarlanmıştır. QUIC protokolü, TCP ve TLS protokollerinin işlevlerini tek bir çatı altında toplar ve aynı zamanda UDP üzerinden çalışır.
 

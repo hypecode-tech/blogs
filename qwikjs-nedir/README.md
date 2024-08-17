@@ -1,4 +1,4 @@
-# Qwik.JS Nedir ?
+## Qwik.JS Nedir ?
 
 Qwik.js, modern web geliştirme için tasarlanmış bir JavaScript çerçevesidir ve özellikle performans optimizasyonu ile dikkat çeker. React.js gibi diğer popüler kütüphaneler ve çerçevelerle karşılaştırıldığında Qwik.js’in bazı avantajları ve dezavantajları bulunmaktadır.
 
