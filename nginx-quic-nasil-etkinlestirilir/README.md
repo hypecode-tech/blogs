@@ -6,27 +6,27 @@ HTTP/3, QUIC protokolü üzerinde çalışan üçüncü nesil HTTP protokolüdü
 
 ## HTTP/2'ye Göre HTTP/3'ün Avantajları
 
-1. Bağlantı Kurulum Süresi:
+#### Bağlantı Kurulum Süresi:
 
 - HTTP/2: TCP ve TLS el sıkışmaları gerektiğinden, bir bağlantı kurma süresi uzun olabilir.
 - HTTP/3: QUIC, TCP ve TLS'yi birleştirerek tek bir el sıkışma işlemi gerektirir. Bu da bağlantı kurulum süresini önemli ölçüde azaltır.
 
-2. Bağlantıların Yeniden Kullanımı:
+#### Bağlantıların Yeniden Kullanımı:
 
 - HTTP/2: Bağlantı kesintisi durumunda, TCP bağlantısının baştan kurulması gerekir.
 - HTTP/3: QUIC, bağlantının IP adresi değişse bile devam edebilmesini sağlar. Bu, özellikle mobil cihazlar gibi ağ değiştiren cihazlar için önemlidir.
 
-3. Gecikme ve Performans:
+#### Gecikme ve Performans:
 
 - HTTP/2: TCP'nin hatalı paketlerin yeniden iletilmesi gibi mekanizmaları nedeniyle gecikme yaşayabilir.
 - HTTP/3: QUIC, paket kayıplarının sadece kaybolan paketlerin yeniden iletilmesine neden olmasını sağlar, bu da gecikmeyi azaltır ve performansı artırır.
 
-4. Başlatma Gecikmesi (Head-of-line Blocking):
+#### Başlatma Gecikmesi (Head-of-line Blocking):
 
 - HTTP/2: TCP'de bir paket kaybı olduğunda, bu kayıp giderilene kadar tüm diğer veriler bekletilir.
 - HTTP/3: QUIC, her veri akışını bağımsız bir şekilde işler, bu sayede bir akıştaki sorun diğer akışları etkilemez.
 
-5. Güvenlik:
+#### Güvenlik:
 
 - HTTP/2: Güvenlik TCP ve TLS üzerinde sağlanır.
 - HTTP/3: QUIC, TLS 1.3 ile entegre bir şekilde gelir, bu da daha hızlı ve güvenli bir bağlantı sağlar.
