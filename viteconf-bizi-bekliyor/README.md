@@ -18,6 +18,10 @@ ViteConf 2024, sadece bir konferans değil, aynı zamanda global web geliştirme
 - **Best Practices:** Vite projelerini geliştirmek için en iyi uygulamalar
 - **Yeni Nesil Özellikler:** Vite'ın sunduğu yeni nesil özellikler ve bunların proje geliştirme süreçlerimize nasıl entegre edileceği
 
+Biz şimdiden yerimizi ayırttık sizde ViteConf'un resmi sitesinden ücretsiz olarak yerinizi ayırtarak bu küresel ve faydalı konferansa katılabilirsiniz.
+
+![ViteConf Ticket - Hypecode](https://raw.githubusercontent.com/hypecode-tech/blogs/main/qwikjs-nedir/cover_image.png)
+
 ### Sonuç
 
 ViteConf 2024, bizim için unutulmaz bir deneyim olacak gibi gözüküyor. Konferansta edineceğimiz bilgiler ve kuracağımız bağlantılar, sektördeki yerimizi güçlendirecek ve bizi daha iyi bir geliştirici yapacaktır. Vite'ın geleceği oldukça parlak görünüyor ve biz de bu heyecan verici yolculuğun bir parçası olmaktan mutluluk duyuyoruz.
