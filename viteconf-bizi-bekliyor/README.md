@@ -2,11 +2,11 @@
 
 ### Giriş
 
-Web geliştirmenin nabzını tutan ViteConf 2024'e katılmaktan büyük mutluluk duyuyoruz! Hypecode Teknoloji olarak, projelerimizde Vite'ı aktif olarak kullanıyor ve bu teknolojinin sunduğu performans avantajlarından yararlanıyoruz. Bu blog yazısında, konferanstaki deneyimlerimizi, öğrendiklerimizi ve geleceğe yönelik hedeflerimizi seninle paylaşacağız.
+Web geliştirmenin nabzını tutan ViteConf 2024'e katılmaktan büyük mutluluk duyuyoruz! Hypecode Teknoloji olarak, projelerimizde Vite'ı aktif olarak kullanıyor ve bu teknolojinin sunduğu performans avantajlarından yararlanıyoruz. Bu blog yazısında, konferansta neler öğrenebileceklerimizi ve geleceğe yönelik hedeflerimizi seninle paylaşacağız.
 
 ### ViteConf 2024: Neden Bu Kadar Özel?
 
-ViteConf 2024, sadece bir konferans değil, aynı zamanda global web geliştirme topluluğunun bir araya gelerek bilgi ve deneyim paylaştığı, yeni fikirler ortaya attığı bir platform. Bu etkinlik, bize şu konularda önemli fırsatlar sundu:
+ViteConf 2024, sadece bir konferans değil, aynı zamanda global web geliştirme topluluğunun bir araya gelerek bilgi ve deneyim paylaştığı, yeni fikirler ortaya attığı bir platform. Bu etkinlik, bizlere şu konularda önemli fırsatlar sunabilir:
 
 - **Vite 5 ve Ötesi:** Vite'ın geleceği ve yeni sürümlerde beklenen özellikler
 - **TypeScript Entegrasyonu:** Vite ve TypeScript arasındaki derinleşen bağ
