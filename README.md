@@ -14,6 +14,8 @@ Teknoloji ve yazılım dünyasında bilgi paylaşımını ön planda tutarak, da
 
 [Golang Fiber - Mikroservis Rehberi](https://github.com/hypecode-tech/blogs/tree/main/fiber-ile-microservis/README.md)
 
+[ViteConf Konferansı - Yeni Fırsatlar](https://github.com/hypecode-tech/blogs/tree/main/viteconf-bizi-bekliyor/README.md)
+
 #### Katkıda bulunanlar
 
 <!-- BEGIN CONTRIBUTORS LIST -->
