@@ -20,8 +20,6 @@ ViteConf 2024, sadece bir konferans değil, aynı zamanda global web geliştirme
 
 Biz şimdiden yerimizi ayırttık sizde ViteConf'un resmi sitesinden ücretsiz olarak yerinizi ayırtarak bu küresel ve faydalı konferansa katılabilirsiniz.
 
-![ViteConf Ticket - Hypecode](https://raw.githubusercontent.com/hypecode-tech/blogs/main/viteconf-bizi-bekliyor/cover_image.png)
-
 ### Sonuç
 
 ViteConf 2024, bizim için unutulmaz bir deneyim olacak gibi gözüküyor. Konferansta edineceğimiz bilgiler ve kuracağımız bağlantılar, sektördeki yerimizi güçlendirecek ve bizi daha iyi bir geliştirici yapacaktır. Vite'ın geleceği oldukça parlak görünüyor ve biz de bu heyecan verici yolculuğun bir parçası olmaktan mutluluk duyuyoruz.
