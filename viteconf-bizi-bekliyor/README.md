@@ -20,7 +20,7 @@ ViteConf 2024, sadece bir konferans değil, aynı zamanda global web geliştirme
 
 Biz şimdiden yerimizi ayırttık sizde ViteConf'un resmi sitesinden ücretsiz olarak yerinizi ayırtarak bu küresel ve faydalı konferansa katılabilirsiniz.
 
-![ViteConf Ticket - Hypecode](https://raw.githubusercontent.com/hypecode-tech/blogs/main/qwikjs-nedir/cover_image.png)
+![ViteConf Ticket - Hypecode](https://raw.githubusercontent.com/hypecode-tech/blogs/main/viteconf-bizi-bekliyor/cover_image.png)
 
 ### Sonuç
 
