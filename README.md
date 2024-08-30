@@ -8,13 +8,15 @@ Teknoloji ve yazılım dünyasında bilgi paylaşımını ön planda tutarak, da
 
 ### İçerik Listesi
 
-[Qwik.js Nedir?](https://github.com/hypecode-tech/blogs/blob/main/qwikjs-nedir/README.md)
+[E-Ticaret Sistemleri ve Siber Güvenlik Uygulamaları](https://github.com/hypecode-tech/blogs/blob/main/eticaret-magazalarinda-guvenlik/README.md)
 
-[Nginx QUIC - HTTP/3 Nasıl Etkinleştirilir](https://github.com/hypecode-tech/blogs/tree/main/nginx-quic-nasil-etkinlestirilir/README.md)
+[ViteConf Konferansı - Yeni Fırsatlar](https://github.com/hypecode-tech/blogs/tree/main/viteconf-bizi-bekliyor/README.md)
 
 [Golang Fiber - Mikroservis Rehberi](https://github.com/hypecode-tech/blogs/tree/main/fiber-ile-microservis/README.md)
 
-[ViteConf Konferansı - Yeni Fırsatlar](https://github.com/hypecode-tech/blogs/tree/main/viteconf-bizi-bekliyor/README.md)
+[Nginx QUIC - HTTP/3 Nasıl Etkinleştirilir](https://github.com/hypecode-tech/blogs/tree/main/nginx-quic-nasil-etkinlestirilir/README.md)
+
+[Qwik.js Nedir?](https://github.com/hypecode-tech/blogs/blob/main/qwikjs-nedir/README.md)
 
 #### Katkıda bulunanlar
 
