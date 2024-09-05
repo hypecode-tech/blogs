@@ -1,5 +1,7 @@
 ## E-Ticarete Yeni Başlayacakların Dikkat Etmesi Gereken 7 Kritik Şey
 
+-----
+
 ### 1. Hedef Kitleyi Doğru Tanımak ve Analiz Etmek
 - **Demografik Bilgiler ve İlgi Alanları:** Potansiyel müşterilerinizin yaş, cinsiyet, ilgi alanları gibi temel özelliklerini belirleyin.
 - **Müşteri İhtiyaçlarını ve Sorunlarını Anlamak:** Hedef kitlenizin ihtiyaçlarını ve hangi sorunlarla karşılaştığını belirleyerek ürün veya hizmetlerinizi nasıl şekillendirebileceğinizi keşfedin.
@@ -33,6 +35,8 @@
 - **Satış ve Trafik Analizi:** Google Analytics ve diğer araçlar ile mağazanızın performansını düzenli olarak izleyin.
 - **A/B Testleri ve Optimizasyon:** Farklı stratejileri test edin ve sonuçlara göre mağazanızı sürekli olarak optimize edin.
 
+
+----
 
 Bu yazımızda da <strong>e-ticarete başlarken</strong> nerelere dikkat etmeliyiz bunlara değindik.
 
