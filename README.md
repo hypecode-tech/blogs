@@ -8,6 +8,8 @@ Teknoloji ve yazılım dünyasında bilgi paylaşımını ön planda tutarak, da
 
 ### İçerik Listesi
 
+[E-Ticarete Yeni Başlayanların Dikkat Etmesi Gereken Şeyler](https://github.com/hypecode-tech/blogs/blob/main/eticarete-yeni-baslayanlarin-dikkat-etmesi-gerekenler/README.md)
+
 [E-Ticaret Sistemleri ve Siber Güvenlik Uygulamaları](https://github.com/hypecode-tech/blogs/blob/main/eticaret-magazalarinda-guvenlik/README.md)
 
 [ViteConf Konferansı - Yeni Fırsatlar](https://github.com/hypecode-tech/blogs/tree/main/viteconf-bizi-bekliyor/README.md)
