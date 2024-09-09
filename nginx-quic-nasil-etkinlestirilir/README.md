@@ -58,7 +58,7 @@ server {
 
 Konfigürasyon dosyasını düzenledikten sonra `nginx -t` komutu ile söz dizimnde herhangi bir hata olmadığından emin olduktan sonra `systemctl restart nginx` komutu ile nginxi yeniden başlatabilirsiniz daha sonrasında **F12** tuşuna basın ve çıkan sağ ekrandan sunucu tarafından gönderilen dosyaların **Sürüm** bilgisini görebilirsiniz.
 
-![HTTP/3 - Hypecode](https://raw.githubusercontent.com/hypecode-tech/blogs/main/nginx-quic-nasil-etkinlestirilir/result.png)
+![HTTP/3 - Hypecode](https://raw.githubusercontent.com/hypecode-tech/blogs/main/nginx-quic-nasil-etkinlestirilir/result.webp)
 
 Bu yazımızda QUIC - HTTP/3 protokolünün nginx ile nasıl kullanabileceğini gösterdik.
 
