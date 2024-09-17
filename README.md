@@ -20,6 +20,10 @@ Teknoloji ve yazılım dünyasında bilgi paylaşımını ön planda tutarak, da
 
 [Qwik.js Nedir?](https://github.com/hypecode-tech/blogs/blob/main/qwikjs-nedir/README.md)
 
+[İnternette varlığınızı güçlendirme yolları](https://github.com/hypecode-tech/blogs/blob/main/internette-varliginizi-guclendirme-yollari/README.md)
+
+[Kendi E-Ticaret mağazam mı yoksa Pazaryerleri mi ?](https://github.com/hypecode-tech/blogs/blob/main/kendi-mağazam-mi-pazaryeri-mi/README.md)
+
 #### Katkıda bulunanlar
 
 <!-- BEGIN CONTRIBUTORS LIST -->
