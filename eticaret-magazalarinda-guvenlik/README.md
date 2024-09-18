@@ -26,7 +26,7 @@ Bu tür bir durumun yaşanmaması için <strong>e-ticaret</strong> platformları
 
 <strong>E-ticaret sitelerinde</strong> ürünlerin görselleri ve önizleme kartları, belirli ürün kimlikleri (ID) ile ilişkilendirilmiştir. Müşteri bir ürüne tıkladığında, sistem arka planda bu ürün kimliğine göre bir sorgu yapar ve sadece o kimlikle ilgili bilgileri getirir. Bu işlem "URL parametrizasyonu" ve "dinamik veri çekme" gibi tekniklerle sağlanır.
 
-Örneğin, bir müşteri "Ürün A"nın önizlemesine tıkladığında, web tarayıcısının adres çubuğunda www.siteadi.xyz/urun/123 gibi bir bağlantı görülebilir. Bu bağlantı, sistemin sadece '123' ID numaralı ürünü çağırmasını sağlar. Sunucu tarafındaki kontrol mekanizmaları ise sorgularda başka ürünlere dair bilgilerin gösterilmemesini temin eder.
+Örneğin, bir müşteri "Ürün A"nın önizlemesine tıkladığında, web tarayıcısının adres çubuğunda ```www.siteadi.xyz/urun/123``` gibi bir bağlantı görülebilir. Bu bağlantı, sistemin sadece '123' ID numaralı ürünü çağırmasını sağlar. Sunucu tarafındaki kontrol mekanizmaları ise sorgularda başka ürünlere dair bilgilerin gösterilmemesini temin eder.
 #### 3. Müşteri ödeme yapmadan ürünü satın alabilir mi? Alamaz ise bu mantıksal ara katman nasıl bunu sağlıyor?
 
 Müşterilerin ödeme yapmadan bir ürünü satın almaları mümkün değildir çünkü <strong>e-ticaret sistemleri</strong> bir dizi doğrulama ve onaylama adımından geçer. Bu adımlar, genellikle bir "iş akışı yönetimi" sistemi kullanılarak gerçekleştirilir. İş akışı yönetimi, işlemin her adımını (sepete ekleme, ödeme bilgilerini girme, ödeme onayı vb.) tanımlar ve bir adım tamamlanmadan diğerine geçişi engeller.
