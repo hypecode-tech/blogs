@@ -1,4 +1,4 @@
-### <strong>pazaryerleri</strong>
+### <strong>Pazaryerleri</strong>
 
 Pazaryeri, farklı satıcıların ürünlerini tek bir platformda bir araya getirerek tüketicilere sunan online alışveriş siteleridir. <strong>Amazon</strong>, <strong>eBay</strong>, <strong>Trendyol</strong>, <strong>Hepsiburada</strong> gibi platformlar en bilinen <strong>pazaryerleri</strong> arasında yer alır. <strong>pazaryerleri</strong>, hem B2C (Business-to-Consumer) hem de B2B (Business-to-Business) satışları için kullanılabilmektedir.
 
