@@ -24,6 +24,9 @@ Teknoloji ve yazılım dünyasında bilgi paylaşımını ön planda tutarak, da
 
 [Kendi E-Ticaret mağazam mı yoksa Pazaryerleri mi ?](https://github.com/hypecode-tech/blogs/blob/main/kendi-mağazam-mi-pazaryeri-mi/README.md)
 
+[AMP Nedir ? Hızlandırılmış Mobil Websiteleri](https://github.com/hypecode-tech/blogs/blob/main/amp-websiteleri/README.md)
+
+
 #### Katkıda bulunanlar
 
 <!-- BEGIN CONTRIBUTORS LIST -->
