@@ -4,7 +4,7 @@ QUIC (Quick UDP Internet Connections), Google tarafından geliştirilen ve UDP t
 
 HTTP/3, QUIC protokolü üzerinde çalışan üçüncü nesil HTTP protokolüdür. HTTP/3, önceki HTTP sürümlerinin üzerinde çalıştığı TCP'nin yerini alarak, daha düşük gecikme süresi ve daha hızlı veri aktarımı sağlar.
 
-## HTTP/2'ye Göre HTTP/3'ün Avantajları
+### HTTP/2'ye Göre HTTP/3'ün Avantajları
 
 #### Bağlantı Kurulum Süresi:
 
