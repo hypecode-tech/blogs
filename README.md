@@ -26,6 +26,8 @@ Teknoloji ve yazılım dünyasında bilgi paylaşımını ön planda tutarak, da
 
 [AMP Nedir ? Hızlandırılmış Mobil Websiteleri](https://github.com/hypecode-tech/blogs/blob/main/amp-websiteleri/README.md)
 
+[Markanız için doğru alan adı nasıl seçilmelidir ?](https://github.com/hypecode-tech/blogs/blob/main/dogru-domain-nasıl-secilmelidir/README.md)
+
 
 #### Katkıda bulunanlar
 
