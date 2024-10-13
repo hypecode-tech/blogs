@@ -1,5 +1,3 @@
-# Next Conf 2024
-
 **Next Conf 2024**, 24 Ekim 2024 tarihinde gerçekleşecek olan önemli bir etkinlik olarak web geliştirme topluluğu tarafından merakla bekleniyor. Etkinliğin ana teması, Next.js'in gelecek sürümleri ile birlikte sunulacak yeni özellikler kadar, framework'ün ve genel olarak web geliştirme dünyasının geleceği ile ilgili konuşmalar içerecek. **Vercel**, Next.js’i daha hızlı, daha esnek ve geliştirici dostu bir hale getirmek için uzun vadeli bir yol haritası sunması bekleniyor. Geçen yıl 26 Ekim 2023 tarihinde Next.js 14'ü piyasaya sürdü. Bu sene de Next Conf ile birlikte Next.js 15'i tanıtması öngörülüyor. 
 
 ## Next.js 14 ile Gelen Yenilikler
