@@ -16,7 +16,7 @@ OWASP Top 10 ve CWE/SANS Top 25 gibi güvenli kodlama rehberleri, geliştiricile
 
 ## Güvenli Bellek Yönetimi
 
-Güvenli bellek yönetimi ile <a href="https://hypecode.tech/blog/buffer-overflow-saldirisi-nedir-ve-nasil-onlenir" title="Bufferoverflow saldırı nedir ? Nasıl Önlenir ?">bellek taşmaları (buffer-overflow)</a>, <strong>dangling pointer</strong> ve <strong>use-after-free</strong> gibi hataların kötü amaçlı kullanımını engeller. Başta C ve C++ gibi güvenli olmayan bellek yönetimine izin veren programlama dillerinde bu tür hatalar sıklıkla güvenlik açıklarına yol açabilir. Bu noktada geliştiricilerin daha güvenli alternatiflere yönelmesi müşteri memnuniyeti ve yine kullanıcıların verilerinin güvenliğini sağlama noktasında çok daha doğru bir adım olacaktır.
+Güvenli bellek yönetimi ile <a href="https://hypecode.tech/blog/buffer-overflow-nedir-ve-nasil-onlenir" title="Buffer Overflow Nedir ? Nasıl Önlenir ?">bellek taşmaları (buffer-overflow)</a>, <strong>dangling pointer</strong> ve <strong>use-after-free</strong> gibi hataların kötü amaçlı kullanımını engeller. Başta C ve C++ gibi güvenli olmayan bellek yönetimine izin veren programlama dillerinde bu tür hatalar sıklıkla güvenlik açıklarına yol açabilir. Bu noktada geliştiricilerin daha güvenli alternatiflere yönelmesi müşteri memnuniyeti ve yine kullanıcıların verilerinin güvenliğini sağlama noktasında çok daha doğru bir adım olacaktır.
 
 ### Alternatifler Nedir ?
 
