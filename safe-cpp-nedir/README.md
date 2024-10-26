@@ -113,6 +113,7 @@ int main() {
 
 ---
 
+
 ## Safe C++ Kullanmanın Avantajları
 
 - **Güvenlik Artışı:** Bellek yönetimi ve iş parçacığı senkronizasyonunda hataları azaltır.
