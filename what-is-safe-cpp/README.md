@@ -31,24 +31,24 @@ Accessing the same resource simultaneously in a multithreaded environment can le
 To install the Safe C++ library, follow these steps:
 
 1. First, download the library from GitHub or the official website:
-    ```bash
-    git clone https://github.com/username/safe-cpp.git
-    ```
+```bash
+git clone https://github.com/username/safe-cpp.git
+```
 
 2. Navigate to the downloaded folder and configure it:
-    ```bash
-    cd safe-cpp
-    mkdir build && cd build
-    cmake ..
-    make
-    sudo make install
-    ```
+```bash
+cd safe-cpp
+mkdir build && cd build
+cmake ..
+make
+sudo make install
+```
 
 3. To use the Safe C++ library in your project, include the relevant header files:
-    ```cpp
-    #include <safe-cpp/safe_pointer.hpp>
-    #include <safe-cpp/safe_vector.hpp>
-    ```
+```cpp
+#include <safe-cpp/safe_pointer.hpp>
+#include <safe-cpp/safe_vector.hpp>
+```
 
 ---
 
