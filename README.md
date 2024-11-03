@@ -29,6 +29,8 @@ Teknoloji ve yazılım dünyasında bilgi paylaşımını ön planda tutarak, da
 [Markanız için doğru alan adı nasıl seçilmelidir ?](https://github.com/hypecode-tech/blogs/blob/main/dogru-domain-nasıl-secilmelidir/README.md)
 
 
+[Website hızı nasıl arttılır ?](https://github.com/hypecode-tech/blogs/blob/main/website-hizi-nasil-arttirilir/README.md)
+
 #### Katkıda bulunanlar
 
 <!-- BEGIN CONTRIBUTORS LIST -->

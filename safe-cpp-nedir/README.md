@@ -123,6 +123,8 @@ int main() {
 ---
 
 
+
+
 ## Sonuç
 
 Safe C++, C++ dilinde sık karşılaşılan bellek ve eşzamanlılık problemlerini çözmeyi amaçlayan güçlü bir kütüphanedir. Bellek güvenliği ve program güvenilirliği açısından büyük avantajlar sunar. Bu kütüphaneyi kullanarak kodunuzun güvenliğini artırabilir ve bellek yönetimi sorunlarını en aza indirebilirsiniz.
