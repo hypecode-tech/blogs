@@ -30,7 +30,7 @@ Etkinlikteki önemli isimlerden, Savunma Sanayi Başkanı Haluk Gürgön 2035 y�
 ----
 
 
-### Muantum Bilgisayarlar Hangi Alanlarda Kullanılır?
+### Kuantum Bilgisayarlar Hangi Alanlarda Kullanılır?
 
 - Kriptografi: Geleneksel şifreleme yöntemlerini kırabilir ve daha güvenli şifreleme algoritmaları geliştirebilir.
 
