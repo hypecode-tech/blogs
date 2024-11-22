@@ -31,7 +31,7 @@ Elysia.js is especially ideal for projects that have high performance requiremen
 
 ---
 
-## Example of using Elysia.js  
+## Example of using Elysia.js 
 
 Below you can find a basic example of creating an Elysia.js application:  
 
@@ -84,7 +84,7 @@ If the data type in the request does not match the data type standards provided 
 
 ## Automatic Swagger Support
 
-Another feature that makes <strong>Elysia.js</strong> indispensable for developers is that it creates it for you without the need to make definitions such as additional @params for <strong>Swagger</strong> thanks to end-to-end data security.
+Another feature that makes <strong>Elysia.js</strong> indispensable for developers is that it creates it for you without the need to make definitions such as additional ```@params``` for <strong>Swagger</strong> thanks to end-to-end data security.
 
 This prevents the backend developers from wasting time writing extra documentation and prevents the frontend developer from wasting time if the documentation is wrong.
 

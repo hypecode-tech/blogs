@@ -82,7 +82,7 @@ Yapılan istekdeki veri tipi ile Elysia'nın geliştiricilere sağladığı veri
 
 ## Otomatik Swagger Desteği
 
-<strong>Elysia.js</strong>'ın geliştiriciler vazgeçilmez kılan başka bir özellik ise uçtan uca veri güvenliği sayesinde <strong>Swagger</strong> için ek @params gibi tanımlamalar yapmaya gerek duymadan bunu sizin yerinize oluşturuyor.
+<strong>Elysia.js</strong>'ın geliştiriciler vazgeçilmez kılan başka bir özellik ise uçtan uca veri güvenliği sayesinde <strong>Swagger</strong> için ek ```@params``` gibi tanımlamalar yapmaya gerek duymadan bunu sizin yerinize oluşturuyor.
 
 Bu da hem arkauç geliştiricilerinin ekstra dokümantasyon yazarak vakit kaybetmesini önlüyor hemde yazılan dokümantasyonun yanlış olması halinde önuç geliştiricinin vakit kaybetmesinin önüne geçiliyor.
 
