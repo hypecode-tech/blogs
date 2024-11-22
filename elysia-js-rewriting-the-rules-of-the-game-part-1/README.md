@@ -76,7 +76,7 @@ export type App = typeof app;
 
 **An image summarising the processes of the control mechanism**
 
-![elysia-js-benchmarks](https://raw.githubusercontent.com/hypecode-tech/blogs/main/elysia-js-oyunun-kurallarini-bastan-yazanlar-bolum-1/elysia-js-benchmarks.webp)
+![elysia-js-benchmarks](https://raw.githubusercontent.com/hypecode-tech/blogs/main/elysia-js-rewriting-the-rules-of-the-game-part-1/elysia-js-benchmarks.webp)
 
 
 If the data type in the request does not match the data type standards provided by Elysia, it generates a *422* error.
@@ -98,7 +98,7 @@ The results demonstrate that **Elysia.js** is approximately *21x* faster than Ex
 
 The most important factor behind this is, of course, <a href="https://bun.sh/" title="Bun.JS">Bun</a>.
 
-![elysia-js-life-cycle](https://raw.githubusercontent.com/hypecode-tech/blogs/main/elysia-js-oyunun-kurallarini-bastan-yazanlar-bolum-1/elysia-js-life-cycle.webp)
+![elysia-js-life-cycle](https://raw.githubusercontent.com/hypecode-tech/blogs/main/elysia-js-rewriting-the-rules-of-the-game-part-1/elysia-js-life-cycle.webp)
 
 
 ## How to Create Elysia.JS Project ?
