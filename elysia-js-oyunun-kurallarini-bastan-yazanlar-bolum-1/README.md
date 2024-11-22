@@ -77,7 +77,7 @@ export type App = typeof app;
 
 ![elysia-js-life-cycle](https://raw.githubusercontent.com/hypecode-tech/blogs/main/elysia-js-oyunun-kurallarini-bastan-yazanlar-bolum-1/elysia-js-life-cycle.webp)
 
-Yapılan istekdeki veri tipi ile Elysia'nın geliştirilerece sağladığı veri tipi standartları uyuşmadığı takdirde *422* hatası oluşturuyor.
+Yapılan istekdeki veri tipi ile Elysia'nın geliştiricilere sağladığı veri tipi standartları uyuşmadığı takdirde *422* hatası oluşturuyor.
 
 
 ## Otomatik Swagger Desteği
