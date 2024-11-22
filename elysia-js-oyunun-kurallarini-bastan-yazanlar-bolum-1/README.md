@@ -75,8 +75,7 @@ export type App = typeof app;
 
 **Kontrol mekanizmasının süreçlerini özetleyen bir görsel**
 
-![elysia-js-benchmarks](https://raw.githubusercontent.com/hypecode-tech/blogs/main/elysia-js-oyunun-kurallarini-bastan-yazanlar-bolum-1/elysia-js-benchmarks.webp)
-
+![elysia-js-life-cycle](https://raw.githubusercontent.com/hypecode-tech/blogs/main/elysia-js-oyunun-kurallarini-bastan-yazanlar-bolum-1/elysia-js-life-cycle.webp)
 
 Yapılan istekdeki veri tipi ile Elysia'nın geliştirilerece sağladığı veri tipi standartları uyuşmadığı takdirde *422* hatası oluşturuyor.
 
@@ -97,7 +96,8 @@ Sonuçlar ise bize <strong>Elysia.js</strong>'ın Express + Node.JS'den yaklaş�
 
 Bunun altında yatan en önemli unsur ise tabiki de <a href="https://bun.sh/" title="Bun.JS">Bun</a>'dır.
 
-![elysia-js-life-cycle](https://raw.githubusercontent.com/hypecode-tech/blogs/main/elysia-js-oyunun-kurallarini-bastan-yazanlar-bolum-1/elysia-js-life-cycle.webp)
+
+![elysia-js-benchmarks](https://raw.githubusercontent.com/hypecode-tech/blogs/main/elysia-js-oyunun-kurallarini-bastan-yazanlar-bolum-1/elysia-js-benchmarks.webp)
 
 
 ## Elysia.JS Projesi Nasıl Oluşturulur ?
