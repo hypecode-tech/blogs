@@ -4,24 +4,24 @@
 
 Sunucunuzun yanıt süresi, sitenizin yükleme hızında önemli bir rol oynar. Sunucu yanıt süresini azaltmak için:
 
-- **Kaliteli Bir Hosting Seçin**: Paylaşımlı hosting yerine VPS veya bulut tabanlı bir sunucu tercih edebilirsiniz.
-- **İçerik Dağıtım Ağı (CDN) Kullanın**: CDN, içeriğinizi farklı coğrafi konumlara dağıtarak kullanıcıya en yakın sunucudan içerik sağlar.
-- **HTTP/2 ve HTTP/3 Protokollerini Destekleyin**: Bu protokoller, paralel bağlantı ve daha iyi veri sıkıştırma sağlar.
+- Kaliteli Bir Hosting Seçin: Paylaşımlı hosting yerine VPS veya bulut tabanlı bir sunucu tercih edebilirsiniz.
+- İçerik Dağıtım Ağı (CDN) Kullanın: CDN, içeriğinizi farklı coğrafi konumlara dağıtarak kullanıcıya en yakın sunucudan içerik sağlar.
+- HTTP/2 ve HTTP/3 Protokollerini Destekleyin: Bu protokoller, paralel bağlantı ve daha iyi veri sıkıştırma sağlar.
 
 ## 2. Görselleri Optimize Edin
 
 Görseller, çoğu <strong>website</strong>’nin yüklenme süresini uzatan en büyük etkenlerden biridir. Görselleri optimize etmek için:
 
-- **Doğru Dosya Formatını Seçin**: JPEG görseller fotoğraflar için, PNG şeffaf arka planlı görseller için uygundur. WebP formatı ise daha hızlı yüklenen ve kaliteli bir seçenek olabilir.
-- **Görselleri Sıkıştırın**: Görsellerin boyutlarını düşürmek için [TinyPNG](https://tinypng.com) veya [ImageOptim](https://imageoptim.com) gibi araçları kullanabilirsiniz.
-- **Lazy Loading**: Kullanıcı sayfayı aşağıya kaydırana kadar görsellerin yüklenmesini geciktirebilirsiniz. HTML’de `loading="lazy"` özelliğini kullanarak bunu etkinleştirin.
+- Doğru Dosya Formatını Seçin: JPEG görseller fotoğraflar için, PNG şeffaf arka planlı görseller için uygundur. WebP formatı ise daha hızlı yüklenen ve kaliteli bir seçenek olabilir.
+- Görselleri Sıkıştırın: Görsellerin boyutlarını düşürmek için [TinyPNG](https://tinypng.com) veya [ImageOptim](https://imageoptim.com) gibi araçları kullanabilirsiniz.
+- Lazy Loading: Kullanıcı sayfayı aşağıya kaydırana kadar görsellerin yüklenmesini geciktirebilirsiniz. HTML’de `loading="lazy"` özelliğini kullanarak bunu etkinleştirin.
 
 ## 3. Tarayıcı Önbellekleme Kullanın
 
 Tarayıcı önbellekleme, kullanıcıların siteye geri döndüğünde kaynakları tekrar indirmesini önleyerek yükleme süresini azaltır.
 
-- **HTTP Headers ile Cache-Control Ayarları Yapın**: Örneğin, CSS ve JavaScript dosyaları için 1 hafta veya 1 ay önbellek süresi belirleyin.
-- **.htaccess ile Önbellek Kuralları Ekleyin** (Apache sunucu kullanıyorsanız):
+- HTTP Headers ile Cache-Control Ayarları Yapın: Örneğin, CSS ve JavaScript dosyaları için 1 hafta veya 1 ay önbellek süresi belirleyin.
+- .htaccess ile Önbellek Kuralları Ekleyin (Apache sunucu kullanıyorsanız):
 
     ```apache
     <IfModule mod_expires.c>
@@ -44,27 +44,27 @@ Tarayıcı önbellekleme, kullanıcıların siteye geri döndüğünde kaynaklar
 
 CSS, JavaScript ve HTML dosyalarındaki boşluklar ve gereksiz karakterler, dosya boyutunu artırabilir. Bu dosyaları küçültmek için:
 
-- **CSS ve JavaScript Minify İşlemi**: [UglifyJS](https://github.com/mishoo/UglifyJS) ve [CSSNano](https://cssnano.co) gibi araçları kullanabilirsiniz.
-- **HTML Minify**: HTML dosyalarınız için [HTMLMinifier](https://kangax.github.io/html-minifier/) kullanarak küçültme işlemi yapabilirsiniz.
+- CSS ve JavaScript Minify İşlemi: [UglifyJS](https://github.com/mishoo/UglifyJS) ve [CSSNano](https://cssnano.co) gibi araçları kullanabilirsiniz.
+- HTML Minify: HTML dosyalarınız için [HTMLMinifier](https://kangax.github.io/html-minifier/) kullanarak küçültme işlemi yapabilirsiniz.
 
 ## 5. JavaScript ve CSS’yi Asenkron Hale Getirin
 
 JavaScript ve CSS dosyalarının yüklenme zamanlaması, sayfa yükleme hızını etkileyebilir.
 
-- **Asenkron JavaScript Yükleyin**: `<script>` etiketine `async` veya `defer` ekleyerek JavaScript dosyalarının sayfa ile birlikte yüklenmesini sağlayabilirsiniz.
+- Asenkron JavaScript Yükleyin: `<script>` etiketine `async` veya `defer` ekleyerek JavaScript dosyalarının sayfa ile birlikte yüklenmesini sağlayabilirsiniz.
 
     ```html
     <script src="script.js" async></script>
     ```
 
-- **CSS Dosyalarını Sayfa Üstüne Yerleştirin**: CSS dosyalarının `<head>` bölümüne eklenmesi, render blocking sorunlarını azaltabilir.
+- CSS Dosyalarını Sayfa Üstüne Yerleştirin: CSS dosyalarının `<head>` bölümüne eklenmesi, render blocking sorunlarını azaltabilir.
 
 ## 6. HTTP İsteklerini Azaltın
 
 Bir sayfanın yüklenmesi için yapılan HTTP istek sayısını azaltmak, hız üzerinde doğrudan bir etkiye sahiptir.
 
-- **CSS Sprite’lar Kullanın**: Küçük simgeleri tek bir görsel dosyasında birleştirip CSS ile bu simgelere referans verebilirsiniz.
-- **JavaScript ve CSS Dosyalarını Birleştirin**: Çok sayıda CSS veya JavaScript dosyası yerine, bunları tek bir dosyada birleştirerek yükleme sürelerini iyileştirebilirsiniz.
+- CSS Sprite’lar Kullanın: Küçük simgeleri tek bir görsel dosyasında birleştirip CSS ile bu simgelere referans verebilirsiniz.
+- JavaScript ve CSS Dosyalarını Birleştirin: Çok sayıda CSS veya JavaScript dosyası yerine, bunları tek bir dosyada birleştirerek yükleme sürelerini iyileştirebilirsiniz.
 
 ## 7. AMP (Accelerated Mobile Pages) Kullanımı
 
@@ -74,16 +74,16 @@ AMP, mobil cihazlarda sayfa yükleme süresini hızlandırmak için Google taraf
 
 Dinamik siteler için veritabanı sorgularının optimizasyonu da büyük bir hız kazancı sağlar.
 
-- **Gereksiz Sorgulardan Kaçının**: Her sayfa için gerekli olmayan sorguların yapılmasını engelleyin.
-- **Önbellekleme Kullanın**: MySQL veya Redis gibi veritabanı önbellekleme yöntemleriyle veritabanı sorgularını hızlandırabilirsiniz.
-- **Sorguları İndeksleyin**: Sık kullanılan sütunlara indeks ekleyerek sorgu sürelerini düşürebilirsiniz.
+- Gereksiz Sorgulardan Kaçının: Her sayfa için gerekli olmayan sorguların yapılmasını engelleyin.
+- Önbellekleme Kullanın: MySQL veya Redis gibi veritabanı önbellekleme yöntemleriyle veritabanı sorgularını hızlandırabilirsiniz.
+- Sorguları İndeksleyin: Sık kullanılan sütunlara indeks ekleyerek sorgu sürelerini düşürebilirsiniz.
 
 ## 9. Yazı Tiplerini Optimize Edin
 
 Web yazı tipleri, yükleme süresini etkileyebilir. Yazı tiplerini optimize etmek için:
 
-- **Sadece Gerekli Ağırlıkları Yükleyin**: Örneğin, yalnızca "normal" ve "bold" ağırlıklarını kullanıyorsanız, diğerlerini yüklemeyin.
-- **Font Display Ayarını Yapın**: Yazı tipini hızlı bir şekilde yüklemek için `font-display: swap;` özelliğini kullanabilirsiniz.
+- Sadece Gerekli Ağırlıkları Yükleyin: Örneğin, yalnızca "normal" ve "bold" ağırlıklarını kullanıyorsanız, diğerlerini yüklemeyin.
+- Font Display Ayarını Yapın: Yazı tipini hızlı bir şekilde yüklemek için `font-display: swap;` özelliğini kullanabilirsiniz.
 
     ```css
     @font-face {
@@ -97,9 +97,9 @@ Web yazı tipleri, yükleme süresini etkileyebilir. Yazı tiplerini optimize et
 
 <strong>Website</strong> hızınızı ölçmek ve geliştirmek için bazı performans araçları kullanabilirsiniz:
 
-- **Google PageSpeed Insights**: Google tarafından sağlanan bu araç, sitenizin hızını analiz eder ve iyileştirme önerileri sunar.
-- **GTmetrix**: <strong>Website</strong> hızını ölçmek ve hangi alanlarda iyileştirme yapılabileceğini görmek için kullanabilirsiniz.
-- **WebPageTest**: Detaylı hız testleri ve karşılaştırmalar yapmak için WebPageTest’i kullanabilirsiniz.
+- Google PageSpeed Insights: Google tarafından sağlanan bu araç, sitenizin hızını analiz eder ve iyileştirme önerileri sunar.
+- GTmetrix: <strong>Website</strong> hızını ölçmek ve hangi alanlarda iyileştirme yapılabileceğini görmek için kullanabilirsiniz.
+- WebPageTest: Detaylı hız testleri ve karşılaştırmalar yapmak için WebPageTest’i kullanabilirsiniz.
 
 ## Sonuç
 

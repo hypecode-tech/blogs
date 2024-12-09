@@ -8,15 +8,15 @@ Web geliştirmenin nabzını tutan ViteConf 2024'e katılmaktan büyük mutluluk
 
 ViteConf 2024, sadece bir konferans değil, aynı zamanda global web geliştirme topluluğunun bir araya gelerek bilgi ve deneyim paylaştığı, yeni fikirler ortaya attığı bir platform. Bu etkinlik, bizlere şu konularda önemli fırsatlar sunabilir:
 
-- **Vite 5 ve Ötesi:** Vite'ın geleceği ve yeni sürümlerde beklenen özellikler
-- **TypeScript Entegrasyonu:** Vite ve TypeScript arasındaki derinleşen bağ
-- **SSR ve SSG:** Sunucu tarafı oluşturma (SSR) ve statik site oluşturma (SSG) konusunda Vite'ın sunduğu olanaklar
-- **Eklenti Ekosistemi:** Vite için geliştirilen yeni eklentiler ve bu eklentilerin kullanım alanları
-- **Topluluk:** Diğer Vite geliştiricileriyle tanışıp fikir alışverişinde bulunmak
+- Vite 5 ve Ötesi: Vite'ın geleceği ve yeni sürümlerde beklenen özellikler
+- TypeScript Entegrasyonu: Vite ve TypeScript arasındaki derinleşen bağ
+- SSR ve SSG: Sunucu tarafı oluşturma (SSR) ve statik site oluşturma (SSG) konusunda Vite'ın sunduğu olanaklar
+- Eklenti Ekosistemi: Vite için geliştirilen yeni eklentiler ve bu eklentilerin kullanım alanları
+- Topluluk: Diğer Vite geliştiricileriyle tanışıp fikir alışverişinde bulunmak
 
-- **Performans Optimizasyonu:** Vite ile uygulamalarımızı daha da hızlandırmak için yeni teknikler
-- **Best Practices:** Vite projelerini geliştirmek için en iyi uygulamalar
-- **Yeni Nesil Özellikler:** Vite'ın sunduğu yeni nesil özellikler ve bunların proje geliştirme süreçlerimize nasıl entegre edileceği
+- Performans Optimizasyonu: Vite ile uygulamalarımızı daha da hızlandırmak için yeni teknikler
+- Best Practices: Vite projelerini geliştirmek için en iyi uygulamalar
+- Yeni Nesil Özellikler: Vite'ın sunduğu yeni nesil özellikler ve bunların proje geliştirme süreçlerimize nasıl entegre edileceği
 
 Biz şimdiden yerimizi ayırttık sizde ViteConf'un resmi sitesinden ücretsiz olarak yerinizi ayırtarak bu küresel ve faydalı konferansa katılabilirsiniz.
 
@@ -26,7 +26,7 @@ ViteConf 2024, bizim için unutulmaz bir deneyim olacak gibi gözüküyor. Konfe
 
 Bu yazımızda ViteConf ve Vite hakkında bilgiler verdik.
 
-Teknoloji dünyasında sürekli gelişen yenilikleri takip etmek ve en uygun araçları seçmek, başarıya giden yolda kritik öneme sahiptir. Bu yolculukta, bilgi ve yeniliklerin ışığında ilerlemeye devam ederken, sormak veya keşfetmek istediğiniz her konuda yanınızda olmaktan **Hypecode ekibi olarak** mutluluk duyacağız.
+Teknoloji dünyasında sürekli gelişen yenilikleri takip etmek ve en uygun araçları seçmek, başarıya giden yolda kritik öneme sahiptir. Bu yolculukta, bilgi ve yeniliklerin ışığında ilerlemeye devam ederken, sormak veya keşfetmek istediğiniz her konuda yanınızda olmaktan Hypecode ekibi olarak mutluluk duyacağız.
 
 İyi Çalışmalar dileriz. 🌟
 

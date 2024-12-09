@@ -29,9 +29,9 @@ Bu program, kullanıcının girdiği veriyi `buffer` adlı 10 baytlık bir diziy
 
 ### Potansiyel Sonuçlar
 
-- **Kötü niyetli kod çalıştırma**: Saldırgan, bellek taşmasını kullanarak kötü niyetli kod çalıştırabilir.
-- **Veri kaybı**: Bellek taşması, mevcut verilerin kaybolmasına neden olabilir.
-- **Sistem çökmesi**: Program beklenmedik bir şekilde çökebilir.
+- Kötü niyetli kod çalıştırma: Saldırgan, bellek taşmasını kullanarak kötü niyetli kod çalıştırabilir.
+- Veri kaybı: Bellek taşması, mevcut verilerin kaybolmasına neden olabilir.
+- Sistem çökmesi: Program beklenmedik bir şekilde çökebilir.
 
 ## Buffer Overflow Nasıl Önlenir?
 
@@ -88,9 +88,9 @@ int main() {
 
 Modern derleyiciler, buffer overflow saldırılarına karşı koruma sağlayan çeşitli mekanizmalar sunar:
 
-- **Stack Canaries**: Yığın belleğine eklenen ve overflow durumunda değişen bir değerdir.
-- **Address Space Layout Randomization (ASLR)**: Bellek adreslerini rastgeleleştirerek saldırganın hedef almasını zorlaştırır.
-- **Executable Space Protection**: Yazılabilir alanlarda kodun çalıştırılmasını engeller.
+- Stack Canaries: Yığın belleğine eklenen ve overflow durumunda değişen bir değerdir.
+- Address Space Layout Randomization (ASLR): Bellek adreslerini rastgeleleştirerek saldırganın hedef almasını zorlaştırır.
+- Executable Space Protection: Yazılabilir alanlarda kodun çalıştırılmasını engeller.
 
 ### 4. Kod Analizi ve Testi
 

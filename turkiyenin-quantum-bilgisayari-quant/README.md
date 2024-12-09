@@ -18,12 +18,12 @@ Etkinlikteki önemli isimlerden, Savunma Sanayi Başkanı Haluk Gürgön 2035 y�
 
 ### Kuantum Bilgisayarın Avantajları
 
-1. **Hız ve Verimlilik**:
+1. Hız ve Verimlilik:
 
     <strong>Kuantum bilgisayarlar</strong>, özellikle çok büyük veri kümeleri ve karmaşık problemler için klasik bilgisayarlardan çok daha hızlıdır. Özellikle şifreleme, yapay zeka ve bilimsel simülasyonlar gibi alanlarda quantum bilgisayarlar devrim yaratabilir.
 
 
-2. **Paralel İşlem Yapabilme**:
+2. Paralel İşlem Yapabilme:
 
     <strong>Qubit</strong>'lerin süperpozisyon ve dolanıklık özellikleri, aynı anda birçok olasılığı değerlendirme yeteneği sağlar. Bu durum, quantum bilgisayar teknolojisini, günümüzdeki en karmaşık problemlerin bile üstesinden gelebilecek bir araç haline getirir.
 

@@ -41,18 +41,18 @@ Yeni React Native mimarisi, geliştirme sürecini ve uygulama performansını ö
 
 | Özellik                          | Eski Mimaride Durum                    | Yeni Mimaride Durum                        |
 |-----------------------------------|----------------------------------------|--------------------------------------------|
-| **Render İşlemi**                 | Senkron, bloklayıcı                    | Asenkron, hızlı ve verimli                 |
-| **Modül İletişimi**               | Senkron, JavaScript bekler             | Asenkron, bağımsız çalışır                 |
-| **Performans**                    | Yavaş, büyük uygulamalarda performans düşer | Hızlı, uygulama duyarlılığı artar         |
-| **Bellek Kullanımı**              | Yüksek bellek tüketimi                 | Optimizasyon, daha az bellek kullanımı    |
-| **Geliştirici Deneyimi**          | Daha karmaşık                          | Daha basit, daha verimli geliştirme süreci |
+| Render İşlemi                 | Senkron, bloklayıcı                    | Asenkron, hızlı ve verimli                 |
+| Modül İletişimi               | Senkron, JavaScript bekler             | Asenkron, bağımsız çalışır                 |
+| Performans                    | Yavaş, büyük uygulamalarda performans düşer | Hızlı, uygulama duyarlılığı artar         |
+| Bellek Kullanımı              | Yüksek bellek tüketimi                 | Optimizasyon, daha az bellek kullanımı    |
+| Geliştirici Deneyimi          | Daha karmaşık                          | Daha basit, daha verimli geliştirme süreci |
 
 ### Yeni Mimariye Geçiş: Nelere Dikkat Etmeli?
 Yeni mimariye geçiş yaparken dikkat edilmesi gereken birkaç önemli nokta var:
 
-- **Gradual (Kademeli) Geçiş**: Yeni özellikleri, mevcut projelere kademeli olarak entegre etmek en sağlıklısıdır. Bu sayede, uygulamanın eski mimarisiyle uyumsuzluk sorunları önlenebilir.
-- **Fabric ve TurboModules Uyumluluğu**: Her projede, bu iki yeni özellik her zaman doğrudan kullanılabilir olmayabilir. Öncelikle hangi modüllerin desteklendiğini ve hangi özelliklerin uyumsuz olabileceğini kontrol etmek önemlidir.
-- **Performans Testleri**: Yeni mimariyi entegre ettikten sonra performans testleri yaparak, uygulamanın nasıl performans gösterdiğini izlemek gereklidir. Bu, performans iyileştirmelerinin gerçekten işe yaradığını doğrulamak için önemlidir.
+- Gradual (Kademeli) Geçiş: Yeni özellikleri, mevcut projelere kademeli olarak entegre etmek en sağlıklısıdır. Bu sayede, uygulamanın eski mimarisiyle uyumsuzluk sorunları önlenebilir.
+- Fabric ve TurboModules Uyumluluğu: Her projede, bu iki yeni özellik her zaman doğrudan kullanılabilir olmayabilir. Öncelikle hangi modüllerin desteklendiğini ve hangi özelliklerin uyumsuz olabileceğini kontrol etmek önemlidir.
+- Performans Testleri: Yeni mimariyi entegre ettikten sonra performans testleri yaparak, uygulamanın nasıl performans gösterdiğini izlemek gereklidir. Bu, performans iyileştirmelerinin gerçekten işe yaradığını doğrulamak için önemlidir.
 
 ## Sonuç
 

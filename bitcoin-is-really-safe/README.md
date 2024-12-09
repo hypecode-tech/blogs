@@ -6,13 +6,13 @@
 
 <strong>Bitcoin</strong> relies on a technology called <strong>Blockchain</strong>. <strong>Blockchain</strong> is a transparent and immutable system where all transactions are recorded in a public ledger. The working principle of <strong>Bitcoin</strong> is as follows:
 
-1. **Transaction Request:** A user creates a transaction request when they want to send <strong>Bitcoin</strong>.
-2. **Verification:** This request is verified by thousands of nodes (computers) on the <strong>Bitcoin</strong> network.
-3. **Block Creation:** Verified transactions are grouped together to form a block.
-4. **Miners at Work:** Miners solve a complex mathematical problem to add this block to the Blockchain.
-5. **Adding to Blockchain:** After the problem is solved, the block is added to the Blockchain, and the transaction is completed.
+1. Transaction Request: A user creates a transaction request when they want to send <strong>Bitcoin</strong>.
+2. Verification: This request is verified by thousands of nodes (computers) on the <strong>Bitcoin</strong> network.
+3. Block Creation: Verified transactions are grouped together to form a block.
+4. Miners at Work: Miners solve a complex mathematical problem to add this block to the Blockchain.
+5. Adding to Blockchain: After the problem is solved, the block is added to the Blockchain, and the transaction is completed.
 
-The <strong>Bitcoin</strong> algorithm uses a cryptographic hash function called **SHA-256**. This algorithm encrypts transactions and ensures the security of the data.
+The <strong>Bitcoin</strong> algorithm uses a cryptographic hash function called SHA-256. This algorithm encrypts transactions and ensures the security of the data.
 
 ---
 
@@ -20,16 +20,16 @@ The <strong>Bitcoin</strong> algorithm uses a cryptographic hash function called
 
 <strong>Bitcoin</strong>'s security comes from both its technological infrastructure and its decentralized nature. Here are the key points that make <strong>Bitcoin</strong> secure:
 
-- **Cryptography:** The SHA-256 algorithm makes it nearly impossible for data to be manipulated.
-- **Decentralization:** Since the network is managed by thousands of nodes, it is very difficult to attack from a single point.
-- **Traceability:** All transactions on the Blockchain are public, making it a transparent system.
+- Cryptography: The SHA-256 algorithm makes it nearly impossible for data to be manipulated.
+- Decentralization: Since the network is managed by thousands of nodes, it is very difficult to attack from a single point.
+- Traceability: All transactions on the Blockchain are public, making it a transparent system.
 
 ### Alternative Security Concerns
 Although Bitcoin is secure, it carries some potential security risks:
 
-1. **51% Attack:** If a malicious group controls more than 51% of the network's computational power, they could manipulate transactions.
-2. **Wallet Security:** The security of <strong>Bitcoin</strong> wallets depends on the user's encryption. Using weak passwords or losing the private key poses a risk.
-3. **Smart Contract Errors:** <strong>Bitcoin</strong> does not directly support smart contracts, so there can be security issues when interacting with other chains.
+1. 51% Attack: If a malicious group controls more than 51% of the network's computational power, they could manipulate transactions.
+2. Wallet Security: The security of <strong>Bitcoin</strong> wallets depends on the user's encryption. Using weak passwords or losing the private key poses a risk.
+3. Smart Contract Errors: <strong>Bitcoin</strong> does not directly support smart contracts, so there can be security issues when interacting with other chains.
 
 ---
 
@@ -37,9 +37,9 @@ Although Bitcoin is secure, it carries some potential security risks:
 
 <strong>Bitcoin</strong> is not controlled by any authority or central entity. The advantages of its decentralized structure are as follows:
 
-- **Censorship Resistance:** No government or institution can block <strong>Bitcoin</strong> transactions.
-- **User Control:** You have full control over your money; there’s no need for a bank or third party.
-- **Global Use:** You can use <strong>Bitcoin</strong> worldwide for fast cross-border transfers.
+- Censorship Resistance: No government or institution can block <strong>Bitcoin</strong> transactions.
+- User Control: You have full control over your money; there’s no need for a bank or third party.
+- Global Use: You can use <strong>Bitcoin</strong> worldwide for fast cross-border transfers.
 
 ---
 
@@ -47,10 +47,10 @@ Although Bitcoin is secure, it carries some potential security risks:
 
 <strong>Bitcoin</strong> mining is the process through which new <strong>Bitcoins</strong> are produced and transactions are verified. The mining process works as follows:
 
-1. **Hardware Selection:** Special devices with high processing power (ASICs) are used.
-2. **Mining Software:** Specialized software allows your device to work within the Blockchain network.
-3. **Mathematical Problems:** Miners solve complex mathematical problems to create new blocks.
-4. **Rewarding:** The successful miner earns transaction fees and <strong>Bitcoin</strong> as a reward.
+1. Hardware Selection: Special devices with high processing power (ASICs) are used.
+2. Mining Software: Specialized software allows your device to work within the Blockchain network.
+3. Mathematical Problems: Miners solve complex mathematical problems to create new blocks.
+4. Rewarding: The successful miner earns transaction fees and <strong>Bitcoin</strong> as a reward.
 
 Mining requires high energy consumption and significant costs, so it is not easily accessible to everyone. However, through mining pools, individuals can come together to share this process.
 

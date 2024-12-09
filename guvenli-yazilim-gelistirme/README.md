@@ -6,9 +6,9 @@ Bu makalede, yazılım geliştirme sürecinde güvenliği ve sağlamlığı sağ
 
 Veri güvenliği, yazılımın en kritik bileşenlerinden birisidir. Özellikle gizlilik, bütünlük ve erişilebilirlik (CIA güvenlik üçgeni) temel güvenlik prensiplerini sağlar.
 
-- **Gizlilik** : Yetkisiz erişimlere karşı verilerin korunmasını içerir.
-- **Bütünlük** : Verinin yetkisiz veya yanlış bir şekilde değiştirilmesini engeller.
-- **Erişilebilirlik** : Verinin sadece yetkili kişilerce erişilebilir olmasını sağlar.
+- Gizlilik : Yetkisiz erişimlere karşı verilerin korunmasını içerir.
+- Bütünlük : Verinin yetkisiz veya yanlış bir şekilde değiştirilmesini engeller.
+- Erişilebilirlik : Verinin sadece yetkili kişilerce erişilebilir olmasını sağlar.
 
 ## Güvenli Kodlama Standartları
 

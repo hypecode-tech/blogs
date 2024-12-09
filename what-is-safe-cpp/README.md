@@ -1,4 +1,4 @@
-The C++ language, while powerful and flexible, carries significant risks, especially in memory management. These risks can lead to issues such as memory leaks, null pointer dereferencing, and access violations. **Safe C++** is a library designed to mitigate these issues and promote secure coding practices. This article covers the purpose of Safe C++, the problems it addresses, its installation, and usage examples.
+The C++ language, while powerful and flexible, carries significant risks, especially in memory management. These risks can lead to issues such as memory leaks, null pointer dereferencing, and access violations. Safe C++ is a library designed to mitigate these issues and promote secure coding practices. This article covers the purpose of Safe C++, the problems it addresses, its installation, and usage examples.
 
 ---
 
@@ -113,9 +113,9 @@ int main() {
 
 ## Benefits of Using Safe C++
 
-- **Increased Security:** Reduces errors in memory management and thread synchronization.
-- **Easier Maintenance:** Enhances code readability and simplifies debugging.
-- **Performance Retention:** Most security operations are performed without sacrificing performance.
+- Increased Security: Reduces errors in memory management and thread synchronization.
+- Easier Maintenance: Enhances code readability and simplifies debugging.
+- Performance Retention: Most security operations are performed without sacrificing performance.
 
 ---
 

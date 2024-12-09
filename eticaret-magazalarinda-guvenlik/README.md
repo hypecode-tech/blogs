@@ -41,7 +41,7 @@ Bir müşteri ürünü sepete ekledikten sonra ödeme sayfasına yönlendirilir 
 
 Bu yazımızda genel olarak <strong>e-ticaret sistemlerinin</strong> çalışma prensiplerinden ve kimlerden bu hizmeti almalıyız bunlara değindik.
 
-Teknoloji dünyasında sürekli gelişen yenilikleri takip etmek ve en uygun araçları seçmek, başarıya giden yolda kritik öneme sahiptir. Bu yolculukta, bilgi ve yeniliklerin ışığında ilerlemeye devam ederken, sormak veya keşfetmek istediğiniz her konuda yanınızda olmaktan **Hypecode ekibi olarak** mutluluk duyacağız.
+Teknoloji dünyasında sürekli gelişen yenilikleri takip etmek ve en uygun araçları seçmek, başarıya giden yolda kritik öneme sahiptir. Bu yolculukta, bilgi ve yeniliklerin ışığında ilerlemeye devam ederken, sormak veya keşfetmek istediğiniz her konuda yanınızda olmaktan Hypecode ekibi olarak mutluluk duyacağız.
 
 İyi Çalışmalar dileriz. 🌟
 

@@ -1,4 +1,4 @@
-C++ dili, yüksek performanslı ve esnek bir dil olsa da, özellikle bellek yönetimi gibi konularda büyük riskler taşır. Bu durum, dilin doğasında olan bellek sızıntıları, null pointer referansları ve erişim ihlalleri gibi hatalara yol açabilir. **Safe C++**, bu tür hataları azaltmak ve güvenli bir kod yazımını sağlamak için geliştirilmiş bir kütüphanedir. Bu makalede, Safe C++'ın temel amacı, sunduğu çözümler, kurulumu ve kullanımına dair örnekler yer almaktadır.
+C++ dili, yüksek performanslı ve esnek bir dil olsa da, özellikle bellek yönetimi gibi konularda büyük riskler taşır. Bu durum, dilin doğasında olan bellek sızıntıları, null pointer referansları ve erişim ihlalleri gibi hatalara yol açabilir. Safe C++, bu tür hataları azaltmak ve güvenli bir kod yazımını sağlamak için geliştirilmiş bir kütüphanedir. Bu makalede, Safe C++'ın temel amacı, sunduğu çözümler, kurulumu ve kullanımına dair örnekler yer almaktadır.
 
 ---
 
@@ -116,9 +116,9 @@ int main() {
 
 ## Safe C++ Kullanmanın Avantajları
 
-- **Güvenlik Artışı:** Bellek yönetimi ve iş parçacığı senkronizasyonunda hataları azaltır.
-- **Bakım Kolaylığı:** Kodun okunabilirliğini artırır ve hata bulmayı kolaylaştırır.
-- **Performans Korunumu:** Çoğu güvenlik işlemi, performans kaybına yol açmadan yürütülür.
+- Güvenlik Artışı: Bellek yönetimi ve iş parçacığı senkronizasyonunda hataları azaltır.
+- Bakım Kolaylığı: Kodun okunabilirliğini artırır ve hata bulmayı kolaylaştırır.
+- Performans Korunumu: Çoğu güvenlik işlemi, performans kaybına yol açmadan yürütülür.
 
 ---
 

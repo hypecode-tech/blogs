@@ -1,4 +1,4 @@
-<strong>Elysia.js</strong>, modern web uygulamaları geliştirmek için tasarlanmış, minimal ve performans odaklı bir JavaScript framework'üdür. Framework, özellikle **Node.js** ortamında çalışmak üzere optimize edilmiştir ve kullanım kolaylığı ile hız arasında bir denge kurmayı hedefler. Bunun yanı sıra <strong>Elysia.js</strong>, Bun tabanlı bir frameworktür.
+<strong>Elysia.js</strong>, modern web uygulamaları geliştirmek için tasarlanmış, minimal ve performans odaklı bir JavaScript framework'üdür. Framework, özellikle Node.js ortamında çalışmak üzere optimize edilmiştir ve kullanım kolaylığı ile hız arasında bir denge kurmayı hedefler. Bunun yanı sıra <strong>Elysia.js</strong>, Bun tabanlı bir frameworktür.
 
 Bu makalede Elysia.js'in temel özelliklerini inceleyecek, diğer popüler JavaScript framework'leri ile karşılaştıracak ve temel bir kullanım örneği sunacağız.  
 
@@ -6,10 +6,10 @@ Bu makalede Elysia.js'in temel özelliklerini inceleyecek, diğer popüler JavaS
 
 ## Elysia.js'in Temel Özellikleri  
 
-- **Hafif ve Performanslı:** Elysia.js, hafif bir yapıya sahip olup modern JavaScript standartlarına uygun bir şekilde optimize edilmiştir. Benchmark testlerinde, genellikle Express ve Fastify gibi framework'lerden daha iyi performans göstermektedir.  
-- **Kolay API:** Basit ve öğrenmesi kolay bir API'ye sahiptir, bu da hızlı bir şekilde uygulama geliştirilmesini sağlar.  
-- **Plug-in Desteği:** Minimal yapısına rağmen, ihtiyaçlara göre genişletilebilir bir plug-in ekosistemi sunar.  
-- **TypeScript Desteği:** Elysia.js, TypeScript ile mükemmel bir şekilde çalışır ve tür güvenliğini ön planda tutar.  
+- Hafif ve Performanslı: Elysia.js, hafif bir yapıya sahip olup modern JavaScript standartlarına uygun bir şekilde optimize edilmiştir. Benchmark testlerinde, genellikle Express ve Fastify gibi framework'lerden daha iyi performans göstermektedir.  
+- Kolay API: Basit ve öğrenmesi kolay bir API'ye sahiptir, bu da hızlı bir şekilde uygulama geliştirilmesini sağlar.  
+- Plug-in Desteği: Minimal yapısına rağmen, ihtiyaçlara göre genişletilebilir bir plug-in ekosistemi sunar.  
+- TypeScript Desteği: Elysia.js, TypeScript ile mükemmel bir şekilde çalışır ve tür güvenliğini ön planda tutar.  
 
 ---
 
@@ -17,13 +17,13 @@ Bu makalede Elysia.js'in temel özelliklerini inceleyecek, diğer popüler JavaS
 
 Aşağıda, Elysia.js'in diğer popüler JavaScript framework'leri ile karşılaştırmasını bulabilirsiniz:
 
-| Özellik            | **Elysia.js**      | **Express.js**     | **Fastify**        | **NestJS**         |  
+| Özellik            | Elysia.js      | Express.js     | Fastify        | NestJS         |  
 |--------------------|-------------------|--------------------|--------------------|--------------------|  
-| **Performans**     | Çok Yüksek            | Orta               | Yüksek             | Orta               |  
-| **Öğrenme Eğrisi** | Düşük             | Çok Düşük          | Orta               | Yüksek             |  
-| **Plug-in Ekosistemi** | Orta            | Çok Geniş          | Geniş              | Çok Geniş          |  
-| **TypeScript Desteği** | Çok İyi        | Zayıf              | İyi                | Çok İyi            |  
-| **Swagger Desteği** | Mükemmel        | Zayıf             | Zayıf                | İyi            |  
+| Performans     | Çok Yüksek            | Orta               | Yüksek             | Orta               |  
+| Öğrenme Eğrisi | Düşük             | Çok Düşük          | Orta               | Yüksek             |  
+| Plug-in Ekosistemi | Orta            | Çok Geniş          | Geniş              | Çok Geniş          |  
+| TypeScript Desteği | Çok İyi        | Zayıf              | İyi                | Çok İyi            |  
+| Swagger Desteği | Mükemmel        | Zayıf             | Zayıf                | İyi            |  
 
 
 Elysia.js, özellikle yüksek performans gereksinimleri olan ve hızlı geliştirme süreçlerine ihtiyaç duyan projeler için idealdir. Bunun yanı sıra karmaşık arkauç yazılımları içinde gayet uygundur.
@@ -73,7 +73,7 @@ export type App = typeof app;
 
 ```
 
-**Kontrol mekanizmasının süreçlerini özetleyen bir görsel**
+Kontrol mekanizmasının süreçlerini özetleyen bir görsel
 
 ![elysia-js-life-cycle](https://raw.githubusercontent.com/hypecode-tech/blogs/main/elysia-js-oyunun-kurallarini-bastan-yazanlar-bolum-1/elysia-js-life-cycle.webp)
 

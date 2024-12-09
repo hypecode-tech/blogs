@@ -1,4 +1,4 @@
-<strong>Elysia.js</strong> is a minimal and performance-focused JavaScript framework designed for developing modern web applications. The framework is specifically optimized to work in the **Node.js** environment and aims to strike a balance between ease of use and speed. Additionally, <strong>Elysia.js</strong> is a Bun-based framework.
+<strong>Elysia.js</strong> is a minimal and performance-focused JavaScript framework designed for developing modern web applications. The framework is specifically optimized to work in the Node.js environment and aims to strike a balance between ease of use and speed. Additionally, <strong>Elysia.js</strong> is a Bun-based framework.
 
 
 In this article, we will examine the basic features of Elysia.js, compare it with other popular JavaScript frameworks and provide a basic use case.  
@@ -7,10 +7,10 @@ In this article, we will examine the basic features of Elysia.js, compare it wit
 
 ## Key Features of Elysia.js  
 
-- **Lightweight and Performance:** Elysia.js is lightweight and optimised in accordance with modern JavaScript standards. In benchmark tests, it generally outperforms frameworks such as Express and Fastify.  
-- **Easy API:** It has a simple and easy-to-learn API, which enables rapid application development.
-- **Plug-in Support:** Despite its minimal structure, it offers an expandable plug-in ecosystem according to needs.  
-- **TypeScript Support:** Elysia.js works perfectly with TypeScript and prioritises type safety.  
+- Lightweight and Performance: Elysia.js is lightweight and optimised in accordance with modern JavaScript standards. In benchmark tests, it generally outperforms frameworks such as Express and Fastify.  
+- Easy API: It has a simple and easy-to-learn API, which enables rapid application development.
+- Plug-in Support: Despite its minimal structure, it offers an expandable plug-in ecosystem according to needs.  
+- TypeScript Support: Elysia.js works perfectly with TypeScript and prioritises type safety.  
 
 ---
 
@@ -18,13 +18,13 @@ In this article, we will examine the basic features of Elysia.js, compare it wit
 
 Below you can find a comparison of Elysia.js with other popular JavaScript frameworks:
 
-| Feature            | **Elysia.js**      | **Express.js**     | **Fastify**        | **NestJS**         |  
+| Feature            | Elysia.js      | Express.js     | Fastify        | NestJS         |  
 |--------------------|-------------------|--------------------|--------------------|--------------------|  
-| **Performance**     | Very High            | Medium               | High             | Medium               |  
-| **Learning Curve** | Low             | Very Low          | Medium               | High             |  
-| **Plug-in Ecosystem** | Wide            | Very Wide          | Wide              | Very Wide          |  
-| **TypeScript Support** | Perfect        | Weak              | Medium                | Very Good            |  
-| **Swagger Compitable** | Perfect        | Weak             | Weak                | Good            |  
+| Performance     | Very High            | Medium               | High             | Medium               |  
+| Learning Curve | Low             | Very Low          | Medium               | High             |  
+| Plug-in Ecosystem | Wide            | Very Wide          | Wide              | Very Wide          |  
+| TypeScript Support | Perfect        | Weak              | Medium                | Very Good            |  
+| Swagger Compitable | Perfect        | Weak             | Weak                | Good            |  
 
 
 Elysia.js is especially ideal for projects that have high performance requirements and need fast development processes. It is also very suitable for complex backend software.
@@ -74,7 +74,7 @@ export type App = typeof app;
 
 ```
 
-**An image summarising the processes of the control mechanism**
+An image summarising the processes of the control mechanism
 
 ![elysia-js-life-cycle](https://raw.githubusercontent.com/hypecode-tech/blogs/main/elysia-js-rewriting-the-rules-of-the-game-part-1/elysia-js-life-cycle.webp)
 
@@ -92,9 +92,9 @@ The process is more secure, robust and automated.
 
 ## Ultra High Performance
 
-**Elysia.js** not only offers developer-friendly features and type safety but also delivers performance results that could rewrite the rules of the game. The image below shows the same application written with other frameworks and the results of the benchmark test.
+Elysia.js not only offers developer-friendly features and type safety but also delivers performance results that could rewrite the rules of the game. The image below shows the same application written with other frameworks and the results of the benchmark test.
 
-The results demonstrate that **Elysia.js** is approximately *21x* faster than Express + Node.js.
+The results demonstrate that Elysia.js is approximately *21x* faster than Express + Node.js.
 
 The most important factor behind this is, of course, <a href="https://bun.sh/" title="Bun.JS">Bun</a>.
 

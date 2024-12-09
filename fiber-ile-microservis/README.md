@@ -11,7 +11,7 @@ Fiber, GoLang'ın performans odaklı yapısını tamamen benimseyen, hafif ve ko
 - Modüler Yapı: Fiber, modüler bir yapıya sahiptir ve ihtiyacınıza göre çeşitli middleware'ler ile genişletilebilir.
 - Kolay Başlangıç: Minimalist yapısı sayesinde hızlı bir şekilde uygulamanızı ayağa kaldırabilirsiniz.
 
-Bu blog yazısında Fiberın **v3** versiyonu esas alınacaktır.
+Bu blog yazısında Fiberın v3 versiyonu esas alınacaktır.
 
 `go get -u github.com/gofiber/fiber/v3` komutu ile fiberı indirebilirsiniz.
 
@@ -42,7 +42,7 @@ Fiber, GoLang ile yüksek performanslı ve ölçeklenebilir web uygulamaları ge
 
 Bu blog içeriği, Fiber framework'ünü tanıtmak ve okuyuculara temel bilgiler sunmak için iyi bir başlangıç olabilir.
 
-Teknoloji dünyasında sürekli gelişen yenilikleri takip etmek ve en uygun araçları seçmek, başarıya giden yolda kritik öneme sahiptir. Bu yolculukta, bilgi ve yeniliklerin ışığında ilerlemeye devam ederken, sormak veya keşfetmek istediğiniz her konuda yanınızda olmaktan **Hypecode ekibi olarak** mutluluk duyacağız.
+Teknoloji dünyasında sürekli gelişen yenilikleri takip etmek ve en uygun araçları seçmek, başarıya giden yolda kritik öneme sahiptir. Bu yolculukta, bilgi ve yeniliklerin ışığında ilerlemeye devam ederken, sormak veya keşfetmek istediğiniz her konuda yanınızda olmaktan Hypecode ekibi olarak mutluluk duyacağız.
 
 İyi Çalışmalar dileriz. 🌟
 
