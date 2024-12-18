@@ -48,7 +48,6 @@ Bu bağlamda <strong>Rust'ın</strong> <i>sahiplik</i> kavramı için 3 ana kura
 Şimdi daha iyi anlamak adına bir fonksiyonda bu <i>sahiplik/ownership</i> kavramını inceleyelim.
 
 ```rust 
-
 fn main(){
 
     let string = String::new("Merhaba"); // Merhaba değeri değişken içine atandı.
@@ -79,17 +78,15 @@ Yazılım geliştirirken bazen değerin sahipliğini tamamen devretmeden başka 
 
 
 ```rust
-
-    let first_string = String::from("Merhaba");
+let first_string = String::from("Merhaba");
     
-    let length = find_length(&first_string);
+let length = find_length(&first_string);
 
-    println!("Değişkenin uzunluğu : {}",length);
+println!("Değişkenin uzunluğu : {}",length);
 
-
-    fn find_length(data: &String) -> usize {
-        data.len()
-    }
+fn find_length(data: &String) -> usize {
+    data.len()
+}
 ```
 
 Yukarıdaki kodda `&` işareti ile `first_string` değişkeninin sahipliğini ödünç olarak `find_length` fonksiyonunun parametresi olan `data` değişkenine verdik.
