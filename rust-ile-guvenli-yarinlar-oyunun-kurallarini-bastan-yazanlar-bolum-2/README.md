@@ -18,7 +18,7 @@ Kısaca özetlemek gerekirse tanımları şu şekildedir:
 
 <strong>Rust'ta</strong>, her değerin/nesnenin bir sahibi vardır. Sahip olunan değer, sahibin kapsamından (scope) çıktığı anda bellekten otomatik olarak temizlenir. Bu işleyiş <strong>Rust'ın</strong>, temel hafıza yönetiminin özetidir.
 
-```rust 
+```rs 
 
 let first_string = String::from("Merhaba");
 let second_string = first_string;
@@ -31,7 +31,7 @@ Nedenini inceleyelim hemen : 👇
 
 Bu işlemde normalde <i>C</i> programlama dili yaparsak alacağımız çıktı "Merhaba Dünya!" şeklinde olacaktır. Çünkü C'de ve diğer dillerde bir nesnenin birden fazla sahibi olabilir. Ancak bu <strong>Rust</strong> programlama dilinde mümkün değildir.
 
-```rust 
+```rs 
 
 let second_string = first_string;
 ```
@@ -49,7 +49,7 @@ Bu bağlamda <strong>Rust'ın</strong> <i>sahiplik</i> kavramı için 3 ana kura
 
 Şimdi daha iyi anlamak adına bir fonksiyonda bu <i>sahiplik/ownership</i> kavramını inceleyelim.
 
-```rust 
+```rs 
 
 fn main(){
 
@@ -80,7 +80,7 @@ Yazılım geliştirirken bazen değerin sahipliğini tamamen devretmeden başka 
 İşleyişe dair bir göz atalım hemen : 👇
 
 
-```rust
+```rs
 
 let first_string = String::from("Merhaba");
     
