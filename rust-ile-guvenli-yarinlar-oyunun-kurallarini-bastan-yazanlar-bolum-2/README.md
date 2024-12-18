@@ -62,7 +62,6 @@ fn new_ownership(data: String) {
     println!("{}",data); // Fonksiyon çalışacak ve Merhaba yazdıracak ve fonksiyon durduktan sonra artık data değişkenide bellekten silinecektir.
 
 }
-
 ```
 
 
@@ -91,7 +90,6 @@ Yazılım geliştirirken bazen değerin sahipliğini tamamen devretmeden başka 
     fn find_length(data: &String) -> usize {
         data.len()
     }
-
 ```
 
 Yukarıdaki kodda `&` işareti ile `first_string` değişkeninin sahipliğini ödünç olarak `find_length` fonksiyonunun parametresi olan `data` değişkenine verdik.
