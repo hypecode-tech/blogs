@@ -1,5 +1,3 @@
-# Rust
-
 **Rust**, açık kaynak kodlu, birden fazla paradigma içeren bir programlama dilidir.
 
 **Rust** dili, bir [Mozilla](https://www.mozilla.org/) çalışanı olan *Graydon Haora'nin* kişisel projelerinden biri olarak ortaya çıkmış daha sonrasında ise [Mozilla](https://www.mozilla.org/) bu projeye 2009 yılında sponsor olmuştur.
@@ -108,7 +106,7 @@ Fonksiyon bittikten sonra otomatik olarak sahiplik bellek yönetimi sayesinde ia
 
 ve listede yer vermediğimiz diğer tüm alanlarda kullanılabilmektedir.
 
-## Rust'ın Geleceğine Dair Çalışmalar
+## Rust'ın Geleceği
 
 ### Kernel Driver'ları ve Sistem Yazılımları
 
