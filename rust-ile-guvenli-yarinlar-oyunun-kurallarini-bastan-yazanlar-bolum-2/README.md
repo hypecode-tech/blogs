@@ -24,7 +24,7 @@ let second_string = first_string;
 println!("{}, Dünya!", first_string);
 ```
 
-==Bu kodu çalıştırırsak bize bir hata verecektir.==
+===Bu kodu çalıştırırsak bize bir hata verecektir.===
 
 Nedenini inceleyelim hemen : 👇
 
