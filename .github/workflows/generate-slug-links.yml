@@ -1,4 +1,4 @@
-name: Generate Slug Links from Folders
+name: Update Blog Links in README
 
 on:
   push:
@@ -7,49 +7,62 @@ on:
   workflow_dispatch:
 
 jobs:
-  process_blog:
+  update_links:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Generate Slug Links from Folders
+      - name: Update Blog Links
         run: |
-          node <<EOF
+          # JavaScript dosyasını oluştur
+          cat << 'EOF' > update-readme.js
           const fs = require('fs');
           const path = require('path');
-          const baseDir = './blogs';
+
+          const baseDir = '.'; // Repo kök dizini
+          const readmePath = path.join(baseDir, 'README.md');
           const baseUrl = 'https://hypecode.tech/blog';
 
-          // Process each folder in the baseDir
-          const processFolders = (dir) => {
-            fs.readdirSync(dir).forEach(folder => {
-              const folderPath = path.join(dir, folder);
-              const stat = fs.statSync(folderPath);
-
-              if (stat.isDirectory()) {
-                const slug = folder; // Use folder name as slug
-                const link = `${baseUrl}/${slug}`;
-
-                // Look for README.md in the folder
-                const readmePath = path.join(folderPath, 'README.md');
-                if (fs.existsSync(readmePath)) {
-                  const content = fs.readFileSync(readmePath, 'utf-8');
-                  const updatedContent = content.replace(/<!-- SLUG:.*? -->/, `<!-- SLUG: ${link} -->`);
-                  fs.writeFileSync(readmePath, updatedContent, 'utf-8');
-                  console.log(`Updated SLUG for: ${folder}`);
-                }
-              }
-            });
+          // Slug'u unslug'a çeviren fonksiyon
+          const unslug = (slug) => {
+            return slug
+              .replace(/-/g, ' ')
+              .replace(/\b\w/g, (char) => char.toUpperCase());
           };
 
-          processFolders(baseDir);
+          // Klasörleri oku
+          const folders = fs.readdirSync(baseDir).filter((folder) => {
+            const folderPath = path.join(baseDir, folder);
+            return fs.statSync(folderPath).isDirectory() && folder !== '.github';
+          });
+
+          // Link listesini oluştur
+          const links = folders.map((folder) => {
+            const title = unslug(folder);
+            const link = `${baseUrl}/${folder}`;
+            return `[${title}](${link})`;
+          });
+
+          // README.md dosyasını oku
+          const readmeContent = fs.readFileSync(readmePath, 'utf-8');
+          const updatedReadme = readmeContent.replace(
+            /### İçerik Listesi[\s\S]*?#### Katkıda bulunanlar/,
+            `### İçerik Listesi\n\n${links.join('\n\n')}\n\n#### Katkıda bulunanlar`
+          );
+
+          // README.md dosyasını güncelle
+          fs.writeFileSync(readmePath, updatedReadme, 'utf-8');
+          console.log('README.md güncellendi!');
           EOF
+
+          # JavaScript dosyasını çalıştır
+          node update-readme.js
 
       - name: Commit changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add .
-          git commit -m "Update blog slugs from folder names"
+          git add README.md
+          git commit -m "Update blog links in README.md"
           git push
