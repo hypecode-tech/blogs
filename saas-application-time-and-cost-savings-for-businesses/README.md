@@ -65,7 +65,7 @@ The SaaS model is not just about saving money — it’s about transforming busi
 
 ## Contact Us for Customized SaaS Solutions
 
-At **Hypecode**, we specialize in creating tailored SaaS solutions to meet your unique business needs. Whether you’re looking to migrate to the cloud or develop a custom SaaS platform, we’re here to help. [Learn more about our custom software solutions here](https://hypecode.tech/solutions/custom-software). Let’s connect and discuss how we can optimize your business operations with the right SaaS tools!
+At **Hypecode**, we specialize in creating tailored SaaS solutions to meet your unique business needs. Whether you’re looking to migrate to the cloud or develop a custom SaaS platform, we’re here to help. [Learn more about our custom software solutions here](https://hypecode.tech/en/solutions/custom-software). Let’s connect and discuss how we can optimize your business operations with the right SaaS tools!
 
 ---
 
