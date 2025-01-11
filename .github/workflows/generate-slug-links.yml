@@ -15,7 +15,7 @@ jobs:
 
       - name: Generate Slug Links from Folders
         run: |
-          node <<EOF
+          echo "
           const fs = require('fs');
           const path = require('path');
           const baseDir = './blogs';
@@ -44,7 +44,9 @@ jobs:
           };
 
           processFolders(baseDir);
-          EOF
+          " > generate-slug.js
+
+          node generate-slug.js
 
       - name: Commit changes
         run: |
