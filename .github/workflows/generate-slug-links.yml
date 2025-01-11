@@ -25,7 +25,7 @@ jobs:
           const path = require('path');
           const langdetect = require('langdetect'); // Dil tespit kütüphanesi
 
-          const baseDir = '.'; // Repo kök dizini
+          const baseDir = process.cwd(); // Çalışma dizinini almak için process.cwd()
           const readmePath = path.join(baseDir, 'README.md');
           const baseUrlTr = 'https://hypecode.tech/blog';
           const baseUrlEn = 'https://hypecode.tech/en/blog';
@@ -33,7 +33,7 @@ jobs:
           // Klasörleri oku ve .git klasörünü es geç
           const folders = fs.readdirSync(baseDir).filter((folder) => {
             const folderPath = path.join(baseDir, folder);
-            return fs.statSync(folderPath).isDirectory() && folder !== '.git';
+            return fs.statSync(folderPath).isDirectory() && folder !== '.git' && folder !== 'node_modules';
           });
 
           // Dil tespiti fonksiyonu
