@@ -12,7 +12,7 @@ For instance, **Salesforce**, one of the largest SaaS providers, allows business
 - Reduced IT staffing needs and lower operational costs
 
 ### Visual: SaaS vs Traditional Software Costs  
-[Insert graph comparing traditional software costs with SaaS subscription models over 5 years]
+!(Comperation)[https://github.com/hypecode-tech/blogs/blob/main/saas-application-time-and-cost-savings-for-businesses/data.webp]
 
 ## 2. Time-Saving Features of SaaS
 
