@@ -13,23 +13,22 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - name: Install franc-min for language detection
+        run: |
+          npm install franc-min
+
       - name: Update Blog Links
         run: |
           # JavaScript dosyasını oluştur
           cat << 'EOF' > update-readme.js
           const fs = require('fs');
           const path = require('path');
+          const franc = require('franc-min'); // Dil tespit kütüphanesi
 
           const baseDir = '.'; // Repo kök dizini
           const readmePath = path.join(baseDir, 'README.md');
-          const baseUrl = 'https://hypecode.tech/blog';
-
-          // Slug'u unslug'a çeviren fonksiyon
-          const unslug = (slug) => {
-            return slug
-              .replace(/-/g, ' ')
-              .replace(/\b\w/g, (char) => char.toUpperCase());
-          };
+          const baseUrlTr = 'https://hypecode.tech/blog';
+          const baseUrlEn = 'https://hypecode.tech/en/blog';
 
           // Klasörleri oku
           const folders = fs.readdirSync(baseDir).filter((folder) => {
@@ -37,11 +36,20 @@ jobs:
             return fs.statSync(folderPath).isDirectory() && folder !== '.github';
           });
 
+          // Dil tespiti fonksiyonu
+          const detectLanguage = (folder) => {
+            const filePath = path.join(baseDir, folder, 'README.md');
+            const fileContent = fs.readFileSync(filePath, 'utf-8');
+            const lang = franc(fileContent); // Metni analiz et
+            return lang === 'eng' ? 'en' : 'tr'; // Eğer dil İngilizce ise 'en', Türkçe ise 'tr'
+          };
+
           // Link listesini oluştur
           const links = folders.map((folder) => {
-            const title = unslug(folder);
-            const link = `${baseUrl}/${folder}`;
-            return `[${title}](${link})`;
+            let language = detectLanguage(folder); // Dil tespiti
+            let baseUrl = language === 'en' ? baseUrlEn : baseUrlTr;
+            let link = `${baseUrl}/${folder}`;
+            return `[${folder}](${link})`;
           });
 
           // README.md dosyasını oku
@@ -65,8 +73,4 @@ jobs:
           git config --global user.email "actions@github.com"
           git add README.md
           git commit -m "Update blog links in README.md"
-<<<<<<< HEAD
           git push
-=======
-          git push
->>>>>>> 26f67d5e00b9839c9e946f8a99a4d5b693db9261
