@@ -30,15 +30,19 @@ jobs:
           const baseUrlTr = 'https://hypecode.tech/blog';
           const baseUrlEn = 'https://hypecode.tech/en/blog';
 
-          // Klasörleri oku
+          // Klasörleri oku ve .git klasörünü es geç
           const folders = fs.readdirSync(baseDir).filter((folder) => {
             const folderPath = path.join(baseDir, folder);
-            return fs.statSync(folderPath).isDirectory() && folder !== '.github';
+            return fs.statSync(folderPath).isDirectory() && folder !== '.git';
           });
 
           // Dil tespiti fonksiyonu
           const detectLanguage = (folder) => {
             const filePath = path.join(baseDir, folder, 'README.md');
+            if (!fs.existsSync(filePath)) {
+              return 'tr'; // README.md yoksa varsayılan olarak Türkçe kabul edelim
+            }
+            
             const fileContent = fs.readFileSync(filePath, 'utf-8');
             const lang = langdetect.detect(fileContent)[0][0]; // Dil tespit et
             return lang === 'en' ? 'en' : 'tr'; // Eğer dil İngilizce ise 'en', Türkçe ise 'tr'
