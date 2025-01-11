@@ -13,9 +13,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Install franc-min for language detection
+      - name: Install langdetect for language detection
         run: |
-          npm install franc-min
+          npm install langdetect
 
       - name: Update Blog Links
         run: |
@@ -23,7 +23,7 @@ jobs:
           cat << 'EOF' > update-readme.js
           const fs = require('fs');
           const path = require('path');
-          const franc = require('franc-min'); // Dil tespit kütüphanesi
+          const langdetect = require('langdetect'); // Dil tespit kütüphanesi
 
           const baseDir = '.'; // Repo kök dizini
           const readmePath = path.join(baseDir, 'README.md');
@@ -40,8 +40,8 @@ jobs:
           const detectLanguage = (folder) => {
             const filePath = path.join(baseDir, folder, 'README.md');
             const fileContent = fs.readFileSync(filePath, 'utf-8');
-            const lang = franc(fileContent); // Metni analiz et
-            return lang === 'eng' ? 'en' : 'tr'; // Eğer dil İngilizce ise 'en', Türkçe ise 'tr'
+            const lang = langdetect.detect(fileContent)[0][0]; // Dil tespit et
+            return lang === 'en' ? 'en' : 'tr'; // Eğer dil İngilizce ise 'en', Türkçe ise 'tr'
           };
 
           // Link listesini oluştur
