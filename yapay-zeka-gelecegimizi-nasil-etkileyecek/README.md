@@ -1,5 +1,3 @@
-# **Yapay Zeka Geleceğimizi Nasıl Etkileyecek? Olumlu ve Olumsuz Yönleri**  
-
 Yapay zeka (AI), günümüzde neredeyse her sektörü dönüştürüyor. GPU, CUDA gibi teknolojiler sayesinde hızla gelişen bu alan, bazı meslekleri tehdit ederken bazılarına büyük verimlilik sağlıyor. Peki, yapay zeka geleceğimizi nasıl şekillendirecek? Gelin bu soruya cevap vermeden önce <b>yapay zekayı</b> biraz daha yakından tanıyalım.  
 
 ## 🚀 **Yapay Zeka Nasıl Çalışır?**  
