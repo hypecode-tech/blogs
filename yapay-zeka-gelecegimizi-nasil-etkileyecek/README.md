@@ -65,20 +65,20 @@ Ayrıca, evlerdeki yapay zeka sistemleri, ev işlerini devralarak zaman kazandı
 ## 🔥 **Hangi Meslekler Tehlikede?**  
 
 ### ❌ **Yapay Zeka Tarafından Tehdit Edilen Meslekler**  
-- **Muhasebeciler ve Veri Girişi Çalışanları**  
-- **Gazeteciler ve İçerik Üreticileri**  
-- **Müşteri Temsilcileri**  
-- **Bankacılık ve Finans Analistleri**  
-- **İmalat ve Depo Çalışanları**  
+- Muhasebeciler ve Veri Girişi Çalışanları  
+- Gazeteciler ve İçerik Üreticileri  
+- Müşteri Temsilcileri
+- Bankacılık ve Finans Analistleri  
+- İmalat ve Depo Çalışanları  
 
 ---
 
 ## ✅ **Hangi Meslekler AI ile Daha Verimli Hale Gelecek?**  
-- **Yazılım Geliştiriciler ve AI Mühendisleri**  
-- **Sağlık Sektörü (AI Destekli Teşhis Sistemleri)**  
-- **Siber Güvenlik Uzmanları**  
-- **Yaratıcı Endüstriler (Grafik, Video, Müzik)**  
-- **Otonom Araç Mühendisleri**  
+- Yazılım Geliştiriciler ve AI Mühendisleri
+- Sağlık Sektörü (AI Destekli Teşhis Sistemleri)  
+- Siber Güvenlik Uzmanları  
+- Yaratıcı Endüstriler (Grafik, Video, Müzik)  
+- Otonom Araç Mühendisleri  
 
 
 ## 🤖 **En Popüler Yapay Zeka Modelleri (2025)**  
@@ -94,14 +94,14 @@ Ayrıca, evlerdeki yapay zeka sistemleri, ev işlerini devralarak zaman kazandı
 
 ## 🌍 **Yapay Zeka Dünya Ekonomisini ve Sektörleri Nasıl Etkileyecek?**  
 **Pozitif Etkiler:**  
-✅ **Verimlilik Artışı**  
-✅ **Yeni İş Kolları**  
-✅ **Sağlık ve Bilimsel Araştırmalar**  
+✅ Verimlilik Artışı  
+✅ Yeni İş Kolları  
+✅ Sağlık ve Bilimsel Araştırmalar  
 
 **Negatif Etkiler:**  
-❌ **İşsizlik Tehlikesi**  
-❌ **Veri Gizliliği Sorunları**  
-❌ **Ekonomik Dengesizlik**  
+❌ İşsizlik Tehlikesi  
+❌ Veri Gizliliği Sorunları  
+❌ Ekonomik Dengesizlik 
 
 
 ## 🎯 **Sonuç**  
