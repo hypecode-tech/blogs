@@ -34,7 +34,7 @@ Now, let's write our first AI agent that will perform a simple user creation tas
 
 First, we need to define a Zod schema for the "action" our agent will perform and a function that will execute this action. The schema determines what parameters the AI should collect and in what types.
 
-```typescript
+```ts
 import { Saafir } from 'saafir';
 import { z } from 'zod';
 
@@ -62,7 +62,7 @@ const createUser = async (input: z.infer<typeof createUserSchema>) => {
 
 After defining our schema and function, we can initialize the Saafir agent with this information.
 
-```typescript
+```ts
 // ... previous imports and definitions
 
 // Configure the Saafir agent
@@ -111,7 +111,7 @@ Saafir can be easily integrated with various Node.js backend frameworks. Here ar
 
 Imagine an AI assistant for an e-commerce site with capabilities to add products and create orders.
 
-```typescript
+```ts
 import express from 'express';
 // ... Saafir and Zod imports ...
 // ... productSchema, orderSchema, addProduct, createOrder functions ...
@@ -151,7 +151,7 @@ app.listen(3000, () => {
 
 An AI that can perform operations like adding expenses or setting budgets for personal finance tracking.
 
-```typescript
+```ts
 import Fastify from 'fastify';
 // ... Saafir and Zod imports ...
 // ... transactionSchema, budgetSchema, addTransaction, setBudget functions ...
@@ -198,7 +198,7 @@ startFastify();
 
 Interacting with AI via tRPC endpoints for project and task management.
 
-```typescript
+```ts
 import { initTRPC } from '@trpc/server';
 import { createHTTPServer } from '@trpc/server/adapters/standalone';
 // ... Saafir and Zod imports ...
@@ -232,7 +232,7 @@ console.log('Task management AI assistant tRPC endpoint is running on http://loc
 
 Adding AI capabilities to a real-time chat application using `uWebSockets.js` (or a similar WebSocket library).
 
-```typescript
+```ts
 import { App, TemplatedApp } from 'uWebSockets.js'; // uWebSockets.js import corrected
 // ... Saafir and Zod imports ...
 // ... messageSchema, roomSchema, sendMessage, createRoom functions ...
@@ -277,7 +277,7 @@ Saafir is not just about basic action calls. It also comes with some powerful fe
 
 One of Saafir's biggest conveniences is its ability to automatically convert text-based data from AI into the correct JavaScript types.
 
-```typescript
+```ts
 const advancedSchema = z.object({
   createdAt: z.date().describe("Creation date (e.g., 'today', 'tomorrow at 2 PM')"),
   isActive: z.boolean().describe("Activity status (e.g., 'yes', 'active')"),
@@ -300,7 +300,7 @@ These automatic conversions make the data flow between AI and your application e
 
 Understanding what's happening during the development phase is crucial. Saafir's `debug: true` option helps you by printing every step of the agent's decision-making process to the console:
 
-```typescript
+```ts
 const agent = new Saafir({
   // ... other settings
   debug: true, // Enable debug mode
@@ -319,7 +319,7 @@ const agent = new Saafir({
 
 You might want your agent to speak different languages with users or adopt a specific personality.
 
-```typescript
+```ts
 const multilingualAgent = new Saafir({
   // ... other settings
   language: "English", // Or "Turkish", "Spanish", "French", etc.

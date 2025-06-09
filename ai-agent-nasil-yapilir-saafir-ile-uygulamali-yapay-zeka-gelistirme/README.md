@@ -34,7 +34,7 @@ bun add saafir zod openai chalk
 
 Öncelikle, agent'ımızın gerçekleştireceği "action" (eylem) için bir Zod şeması ve bu eylemi yürütecek bir fonksiyon tanımlamamız gerekiyor. Şema, AI'ın hangi parametreleri hangi tiplerde toplaması gerektiğini belirler.
 
-```typescript
+```ts
 import { Saafir } from 'saafir';
 import { z } from 'zod';
 
@@ -62,7 +62,7 @@ const createUser = async (input: z.infer<typeof createUserSchema>) => {
 
 Şemamızı ve fonksiyonumuzu tanımladıktan sonra, Saafir agent'ını bu bilgilerle başlatabiliriz.
 
-```typescript
+```ts
 // ... önceki importlar ve tanımlamalar
 
 // Saafir agent'ını yapılandırma
@@ -111,7 +111,7 @@ Saafir, çeşitli Node.js backend framework'leriyle kolayca entegre edilebilir. 
 
 Bir e-ticaret sitesi için ürün ekleme ve sipariş oluşturma yeteneklerine sahip bir AI asistanı düşünün.
 
-```typescript
+```ts
 import express from 'express';
 // ... Saafir ve Zod importları ...
 // ... productSchema, orderSchema, addProduct, createOrder fonksiyonları ...
@@ -151,7 +151,7 @@ app.listen(3000, () => {
 
 Kişisel finans takibi için harcama ekleme veya bütçe belirleme gibi işlemleri yapabilen bir AI.
 
-```typescript
+```ts
 import Fastify from 'fastify';
 // ... Saafir ve Zod importları ...
 // ... transactionSchema, budgetSchema, addTransaction, setBudget fonksiyonları ...
@@ -198,7 +198,7 @@ startFastify();
 
 Proje ve görev yönetimi için tRPC endpoint'leri üzerinden AI ile etkileşim.
 
-```typescript
+```ts
 import { initTRPC } from '@trpc/server';
 import { createHTTPServer } from '@trpc/server/adapters/standalone';
 // ... Saafir ve Zod importları ...
@@ -232,7 +232,7 @@ console.log('Görev yönetimi AI asistanı tRPC endpoint\'i http://localhost:300
 
 `uWebSockets.js` (veya benzeri bir WebSocket kütüphanesi) kullanarak gerçek zamanlı bir chat uygulamasına AI yetenekleri ekleme.
 
-```typescript
+```ts
 import { App, TemplatedApp } from 'uWebSockets.js'; // uWebSockets.js importu düzeltildi
 // ... Saafir ve Zod importları ...
 // ... messageSchema, roomSchema, sendMessage, createRoom fonksiyonları ...
@@ -277,7 +277,7 @@ Saafir sadece temel action çağrılarından ibaret değil. Geliştirme sürecin
 
 Saafir'in en büyük kolaylıklarından biri, AI'dan gelen metin tabanlı verileri otomatik olarak doğru JavaScript tiplerine dönüştürmesidir.
 
-```typescript
+```ts
 const advancedSchema = z.object({
   createdAt: z.date().describe("Oluşturulma tarihi (örn: 'bugün', 'yarın saat 14:00')"),
   isActive: z.boolean().describe("Aktiflik durumu (örn: 'evet', 'aktif')"),
@@ -300,7 +300,7 @@ Bu otomatik dönüşümler, AI ile uygulamanız arasındaki veri akışını son
 
 Geliştirme aşamasında ne olup bittiğini anlamak kritik öneme sahiptir. Saafir'in `debug: true` seçeneği, agent'ın karar verme sürecindeki her adımı konsola yazdırarak size yardımcı olur:
 
-```typescript
+```ts
 const agent = new Saafir({
   // ... diğer ayarlar
   debug: true, // Debug modunu etkinleştir
@@ -319,7 +319,7 @@ const agent = new Saafir({
 
 Agent'ınızın kullanıcılarla farklı dillerde konuşmasını veya belirli bir kişiliğe bürünmesini isteyebilirsiniz.
 
-```typescript
+```ts
 const multilingualAgent = new Saafir({
   // ... diğer ayarlar
   language: "Turkish", // Veya "English", "Spanish", "French" vb.
